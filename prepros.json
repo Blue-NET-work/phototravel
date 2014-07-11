@@ -83,10 +83,10 @@
       "config": {
         "autoCompile": true,
         "compress": false,
-        "sourcemaps": false,
+        "sourcemaps": true,
         "cleancss": false,
-        "strictMath": false,
-        "strictUnits": false,
+        "strictMath": true,
+        "strictUnits": true,
         "autoprefixer": false
       }
     },
@@ -1903,20 +1903,6 @@
         "gfm": true
       }
     },
-    "d8499c13": {
-      "id": "d8499c13",
-      "pid": "ad0d0c64",
-      "name": "color.js",
-      "input": "assets\\plugins\\pace\\docs\\lib\\color.js",
-      "customOutput": false,
-      "type": "Js",
-      "config": {
-        "autoCompile": false,
-        "uglify": true,
-        "mangle": true,
-        "sourcemaps": false
-      }
-    },
     "d1ffb191": {
       "id": "d1ffb191",
       "pid": "ad0d0c64",
@@ -2026,6 +2012,20 @@
         "autoCompile": false,
         "sanitize": false,
         "gfm": true
+      }
+    },
+    "d8499c13": {
+      "id": "d8499c13",
+      "pid": "ad0d0c64",
+      "name": "color.js",
+      "input": "assets\\plugins\\pace\\docs\\lib\\color.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
       }
     }
   },
@@ -2250,6 +2250,14 @@
       "id": "ad40b6ac",
       "pid": "ad0d0c64",
       "path": "assets\\plugins\\font-awesome\\css\\font-awesome.css",
+      "parents": [
+        "496989b3"
+      ]
+    },
+    "32b689fd": {
+      "id": "32b689fd",
+      "pid": "ad0d0c64",
+      "path": "assets\\less\\helper.less",
       "parents": [
         "496989b3"
       ]
@@ -3143,10 +3151,10 @@
     "liveRefreshDelay": 0,
     "filterPatterns": "/assets/plugins",
     "useCustomServer": false,
-    "customServerUrl": "",
-    "cssPath": "../../site/assets/css/",
-    "jsPath": "../../site/assets/scripts/",
-    "htmlPath": "../.../site/",
+    "customServerUrl": "http://themes.blue-net.eu/phototravel/",
+    "cssPath": "",
+    "jsPath": "",
+    "htmlPath": "",
     "minJsPath": "min/",
     "htmlExtension": ".html",
     "cssPathType": "REPLACE_TYPE",
