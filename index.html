@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: PhotoTravel
+Version: 1.00.0
+Theme URI: http://themes.Blue-NET.eu/PhotoTravel/
+Author: Blue-NET Mateusz Serwinowski
+Author URI: http://Blue-NET.pl
+Author E-MAIL: biuro@Blue-NET.pl
+License: Custom
+License URI: URI: http://themeforest.net/licenses
+-->
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8">
+    <title>PhotoTravel</title>
+
+	<!-- http://davidbcalhoun.com/2010/viewport-metatag -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+
+	<!-- http://www.kylejlarson.com/blog/2012/iphone-5-web-design/ -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    
+	<!-- BEGIN PACE PLUGIN FILES -->
+	<script src="assets/plugins/pace/pace.min.js" type="text/javascript"></script>
+	<link href="assets/plugins/pace/themes/pace-theme-flash.css" rel="stylesheet" type="text/css">
+	<!-- END PACE PLUGIN FILES -->
+    
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- BEGIN bxslider -->
+    <link href="assets/plugins/bxslider/jquery.bxslider.css" rel="stylesheet">
+	<!-- END bxslider -->    
+    
+	<!-- JavaScript at bottom except for Modernizr -->
+	<script src="assets/plugins/modernizr.custom.js"></script>
+
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body>
+
+<!-- BEGIN HEADER -->
+<header>
+	<div class="container">
+		<div class="row">
+			<!-- BEGIN LOGO -->
+			<div class="col-md-4">
+				<a href="#"><img src="assets/img/sectionLogo/logo.png" alt=""></a>
+			</div>
+			<div class="col-md-5"></div>
+			<div class="col-md-3"></div>
+		</div>
+	</div>
+</header>
+<!-- END HEADER -->
+
+
+<!-- BEGIN FOOTER -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-4"></div>
+			<div class="col-md-4 col-sm-4 m-t-20 space-mobile">Copyrights &copy; Starway Sp. z o.o. &amp; Mateusz Grzesiak   |  <a href="#">KONTAKT</a></div>
+			<div class="col-md-4 col-sm-4 space-mobile text-right">
+				Design &amp; Art Direction: <a href="#" class="author"></a>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- END FOOTER -->
+
+
+<!-- BEGIN JAVASCRIPTS -->
+	<!--[if lt IE 9]>
+	<script src="assets/plugins/respond.min.js"></script>
+	<script src="assets/plugins/excanvas.min.js"></script> 
+	<![endif]-->
+
+<!-- base javascript -->
+<script src="assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="assets/plugins/jquery-ui-1.10.4/js/jquery-ui-1.10.4.custom.js" type="text/javascript"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/plugins/bootstrap-jasny/js/jasny-bootstrap.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	(function($) { "use strict";
+		
+		jQuery("#facebook").hover(
+			function () {
+				jQuery("#facebook").animate({left: "0px"}, 'slow');
+			},
+			function () {
+				jQuery("#facebook").stop(true,false).animate({ left: "-306px" }, 'slow')
+		});
+
+	})(jQuery);
+</script>
+
+
+<!-- BEGIN bxslider -->
+<script type="text/javascript" src="assets/plugins/bxslider/jquery.bxslider.js"></script>
+<script type="text/javascript">
+	(function($) { "use strict";
+
+		$('.bxslider').bxSlider({auto: true});
+
+	})(jQuery);
+</script>
+<!-- END bxslider -->
+
+
+<!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

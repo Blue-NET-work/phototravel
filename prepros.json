@@ -1,0 +1,3174 @@
+{
+  "id": "ad0d0c64",
+  "cfgVersion": 1,
+  "name": "phototravel",
+  "files": {
+    "27802187": {
+      "id": "27802187",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-it.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-it.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "40106339": {
+      "id": "40106339",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-zh-CN.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-zh-CN.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "41988489": {
+      "id": "41988489",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-lt.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-lt.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "73168852": {
+      "id": "73168852",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-uk.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-uk.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "93427295": {
+      "id": "93427295",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-ca.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-ca.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "496989b3": {
+      "id": "496989b3",
+      "pid": "ad0d0c64",
+      "name": "style.less",
+      "input": "assets\\less\\style.less",
+      "customOutput": "assets\\css\\style.css",
+      "type": "Less",
+      "config": {
+        "autoCompile": true,
+        "compress": false,
+        "sourcemaps": false,
+        "cleancss": false,
+        "strictMath": false,
+        "strictUnits": false,
+        "autoprefixer": false
+      }
+    },
+    "12a4efb8": {
+      "id": "12a4efb8",
+      "pid": "ad0d0c64",
+      "name": "jquery.bxslider.js",
+      "input": "assets\\plugins\\bxslider\\jquery.bxslider.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "f2acb468": {
+      "id": "f2acb468",
+      "pid": "ad0d0c64",
+      "name": "readme.md",
+      "input": "assets\\plugins\\bxslider\\readme.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": false,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "b05d904e": {
+      "id": "b05d904e",
+      "pid": "ad0d0c64",
+      "name": "jquery.easing.1.3.js",
+      "input": "assets\\plugins\\bxslider\\plugins\\jquery.easing.1.3.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "90a53e9d": {
+      "id": "90a53e9d",
+      "pid": "ad0d0c64",
+      "name": "jquery.fitvids.js",
+      "input": "assets\\plugins\\bxslider\\plugins\\jquery.fitvids.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "5de74ac1": {
+      "id": "5de74ac1",
+      "pid": "ad0d0c64",
+      "name": "jasny-bootstrap.js",
+      "input": "assets\\plugins\\bootstrap-jasny\\js\\jasny-bootstrap.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "35871ffe": {
+      "id": "35871ffe",
+      "pid": "ad0d0c64",
+      "name": "font-awesome.less",
+      "input": "assets\\plugins\\font-awesome\\less\\font-awesome.less",
+      "customOutput": false,
+      "type": "Less",
+      "config": {
+        "autoCompile": false,
+        "compress": false,
+        "sourcemaps": false,
+        "cleancss": false,
+        "strictMath": false,
+        "strictUnits": false,
+        "autoprefixer": false
+      }
+    },
+    "5eac07ed": {
+      "id": "5eac07ed",
+      "pid": "ad0d0c64",
+      "name": "font-awesome.scss",
+      "input": "assets\\plugins\\font-awesome\\scss\\font-awesome.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": false,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": false
+      }
+    },
+    "7da731d9": {
+      "id": "7da731d9",
+      "pid": "ad0d0c64",
+      "name": "jquery-1.10.2.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\js\\jquery-1.10.2.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "225bc7ff": {
+      "id": "225bc7ff",
+      "pid": "ad0d0c64",
+      "name": "jquery-ui-1.10.4.custom.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\js\\jquery-ui-1.10.4.custom.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "55b507c0": {
+      "id": "55b507c0",
+      "pid": "ad0d0c64",
+      "name": "Gruntfile.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\Gruntfile.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "a3d352d6": {
+      "id": "a3d352d6",
+      "pid": "ad0d0c64",
+      "name": "jquery-1.10.2.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\jquery-1.10.2.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "1808252b": {
+      "id": "1808252b",
+      "pid": "ad0d0c64",
+      "name": "README.md",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\README.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": false,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "1f810c3d": {
+      "id": "1f810c3d",
+      "pid": "ad0d0c64",
+      "name": "globalize.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\external\\globalize.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "0a4eb586": {
+      "id": "0a4eb586",
+      "pid": "ad0d0c64",
+      "name": "globalize.culture.de-DE.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\external\\globalize.culture.de-DE.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "6f56f25d": {
+      "id": "6f56f25d",
+      "pid": "ad0d0c64",
+      "name": "qunit.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\external\\qunit.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "0d749615": {
+      "id": "0d749615",
+      "pid": "ad0d0c64",
+      "name": "jshint.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\external\\jshint.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "c86af8df": {
+      "id": "c86af8df",
+      "pid": "ad0d0c64",
+      "name": "globalize.culture.ja-JP.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\external\\globalize.culture.ja-JP.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "c5e87f9d": {
+      "id": "c5e87f9d",
+      "pid": "ad0d0c64",
+      "name": "jquery.mousewheel.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\external\\jquery.mousewheel.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "b410aefa": {
+      "id": "b410aefa",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.accordion.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.accordion.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "10dfeddf": {
+      "id": "10dfeddf",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.autocomplete.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.autocomplete.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "8e9092a8": {
+      "id": "8e9092a8",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.button.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.button.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "79ea2f5e": {
+      "id": "79ea2f5e",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.core.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.core.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "ae0230ca": {
+      "id": "ae0230ca",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.draggable.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.draggable.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "b10b9499": {
+      "id": "b10b9499",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.effect-bounce.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.effect-bounce.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "b80799e6": {
+      "id": "b80799e6",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.effect-blind.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.effect-blind.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "881c196f": {
+      "id": "881c196f",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.droppable.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.droppable.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "8dcb4db6": {
+      "id": "8dcb4db6",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.effect-explode.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.effect-explode.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "c8abce54": {
+      "id": "c8abce54",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.effect-clip.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.effect-clip.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "924aeb68": {
+      "id": "924aeb68",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.dialog.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.dialog.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "87c110f9": {
+      "id": "87c110f9",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.effect-drop.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.effect-drop.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "958ec6a9": {
+      "id": "958ec6a9",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.effect-fold.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.effect-fold.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "b3ba593e": {
+      "id": "b3ba593e",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.effect-fade.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.effect-fade.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "cd89c121": {
+      "id": "cd89c121",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.effect-scale.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.effect-scale.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "75b1377c": {
+      "id": "75b1377c",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.effect-shake.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.effect-shake.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "4db60127": {
+      "id": "4db60127",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.effect-highlight.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.effect-highlight.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "adfc7312": {
+      "id": "adfc7312",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.effect-slide.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.effect-slide.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "31b83a8e": {
+      "id": "31b83a8e",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.effect-transfer.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.effect-transfer.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "d3d57921": {
+      "id": "d3d57921",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.effect.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.effect.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "875b2ea6": {
+      "id": "875b2ea6",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.slider.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.slider.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "0d6d14a0": {
+      "id": "0d6d14a0",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.selectable.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.selectable.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "f465355c": {
+      "id": "f465355c",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.mouse.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.mouse.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "76c5e947": {
+      "id": "76c5e947",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.sortable.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.sortable.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "9c079695": {
+      "id": "9c079695",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.effect-pulsate.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.effect-pulsate.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "9e191083": {
+      "id": "9e191083",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.resizable.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.resizable.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "41a75c06": {
+      "id": "41a75c06",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.progressbar.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.progressbar.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "dd67b392": {
+      "id": "dd67b392",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.menu.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.menu.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "1f772ff9": {
+      "id": "1f772ff9",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.tabs.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.tabs.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "20f63399": {
+      "id": "20f63399",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.position.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.position.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "46b8789d": {
+      "id": "46b8789d",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.spinner.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.spinner.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "6a04b443": {
+      "id": "6a04b443",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.tooltip.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.tooltip.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "f5e9a80c": {
+      "id": "f5e9a80c",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.widget.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.widget.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "8aaf4470": {
+      "id": "8aaf4470",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery.ui.datepicker.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "0080d9f4": {
+      "id": "0080d9f4",
+      "pid": "ad0d0c64",
+      "name": "jquery-ui.custom.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\jquery-ui.custom.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "91ede2b8": {
+      "id": "91ede2b8",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-ar.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\datepicker\\jquery.ui.datepicker-ar.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "7e262a1b": {
+      "id": "7e262a1b",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-he.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\datepicker\\jquery.ui.datepicker-he.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "8799dd88": {
+      "id": "8799dd88",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-zh-TW.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\datepicker\\jquery.ui.datepicker-zh-TW.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "1e1dffa1": {
+      "id": "1e1dffa1",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-fr.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\datepicker\\jquery.ui.datepicker-fr.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "4b92c471": {
+      "id": "4b92c471",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-af.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-af.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "f296360d": {
+      "id": "f296360d",
+      "pid": "ad0d0c64",
+      "name": "jquery-ui-i18n.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery-ui-i18n.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "c4d9eee8": {
+      "id": "c4d9eee8",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-ar-DZ.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-ar-DZ.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "6dee0cfb": {
+      "id": "6dee0cfb",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-az.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-az.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "8689c9ae": {
+      "id": "8689c9ae",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-bg.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-bg.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "881305fa": {
+      "id": "881305fa",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-ar.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-ar.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "2ced0791": {
+      "id": "2ced0791",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-be.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-be.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "5a746e42": {
+      "id": "5a746e42",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-bs.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-bs.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "985cf217": {
+      "id": "985cf217",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-cy-GB.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-cy-GB.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "e457b039": {
+      "id": "e457b039",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-de.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-de.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "cc672ff4": {
+      "id": "cc672ff4",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-el.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-el.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "5e80e464": {
+      "id": "5e80e464",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-da.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-da.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "881e9821": {
+      "id": "881e9821",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-en-AU.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-en-AU.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "8ba5ae06": {
+      "id": "8ba5ae06",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-en-GB.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-en-GB.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "1e752dce": {
+      "id": "1e752dce",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-cs.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-cs.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "102b00b4": {
+      "id": "102b00b4",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-fi.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-fi.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "474be8d2": {
+      "id": "474be8d2",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-et.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-et.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "3c11bbb8": {
+      "id": "3c11bbb8",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-gl.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-gl.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "4870e6f4": {
+      "id": "4870e6f4",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-fo.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-fo.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "3d992a89": {
+      "id": "3d992a89",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-fr.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-fr.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "bb239f3b": {
+      "id": "bb239f3b",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-he.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-he.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "fd58d55f": {
+      "id": "fd58d55f",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-fa.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-fa.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "f711d57b": {
+      "id": "f711d57b",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-eu.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-eu.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "39be6ef4": {
+      "id": "39be6ef4",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-hr.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-hr.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "e3265486": {
+      "id": "e3265486",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-fr-CA.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-fr-CA.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "a5dd6625": {
+      "id": "a5dd6625",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-es.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-es.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "c5658e78": {
+      "id": "c5658e78",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-is.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-is.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "1fe595cd": {
+      "id": "1fe595cd",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-eo.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-eo.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "67c39f3b": {
+      "id": "67c39f3b",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-hy.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-hy.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "19a5ee73": {
+      "id": "19a5ee73",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-id.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-id.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "978616e9": {
+      "id": "978616e9",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-hu.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-hu.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "391312e3": {
+      "id": "391312e3",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-hi.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-hi.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "d35c3153": {
+      "id": "d35c3153",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-en-NZ.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-en-NZ.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "22e3767a": {
+      "id": "22e3767a",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-km.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-km.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "059166c7": {
+      "id": "059166c7",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-ko.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-ko.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "31b836df": {
+      "id": "31b836df",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-kk.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-kk.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "3090b4e5": {
+      "id": "3090b4e5",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-ky.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-ky.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "e7c60d53": {
+      "id": "e7c60d53",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-lb.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-lb.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "976c38f1": {
+      "id": "976c38f1",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-ja.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-ja.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "bfab3c72": {
+      "id": "bfab3c72",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-mk.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-mk.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "9d773318": {
+      "id": "9d773318",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-ka.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-ka.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "d1a3ad08": {
+      "id": "d1a3ad08",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-nl-BE.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-nl-BE.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "bd74440d": {
+      "id": "bd74440d",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-nl.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-nl.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "04a0ec7e": {
+      "id": "04a0ec7e",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-ml.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-ml.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "758a6b2c": {
+      "id": "758a6b2c",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-pl.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-pl.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "cbaba626": {
+      "id": "cbaba626",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-nn.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-nn.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "459c1011": {
+      "id": "459c1011",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-pt-BR.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-pt-BR.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "0931fbe8": {
+      "id": "0931fbe8",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-pt.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-pt.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "3ef964ad": {
+      "id": "3ef964ad",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-ru.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-ru.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "905834d7": {
+      "id": "905834d7",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-sk.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-sk.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "bee1b0af": {
+      "id": "bee1b0af",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-sq.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-sq.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "eab7a029": {
+      "id": "eab7a029",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-ms.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-ms.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "5afd097d": {
+      "id": "5afd097d",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-sr-SR.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-sr-SR.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "1e93f138": {
+      "id": "1e93f138",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-lv.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-lv.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "d27accbd": {
+      "id": "d27accbd",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-sr.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-sr.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "49ffde0d": {
+      "id": "49ffde0d",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-sv.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-sv.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "518ede08": {
+      "id": "518ede08",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-th.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-th.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "a644a6ec": {
+      "id": "a644a6ec",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-ta.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-ta.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "5280241b": {
+      "id": "5280241b",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-rm.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-rm.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "95a4e89f": {
+      "id": "95a4e89f",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-ro.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-ro.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "587bb7b2": {
+      "id": "587bb7b2",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-sl.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-sl.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "2740605b": {
+      "id": "2740605b",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-vi.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-vi.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "43810e60": {
+      "id": "43810e60",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-zh-TW.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-zh-TW.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "040b4491": {
+      "id": "040b4491",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-zh-HK.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-zh-HK.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "62f4ab97": {
+      "id": "62f4ab97",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-no.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-no.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "6c730d45": {
+      "id": "6c730d45",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-tj.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-tj.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "c616c1f5": {
+      "id": "c616c1f5",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-tr.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-tr.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "441bdbe4": {
+      "id": "441bdbe4",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-nb.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-nb.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "0ce007b0": {
+      "id": "0ce007b0",
+      "pid": "ad0d0c64",
+      "name": "jquery.ui.datepicker-fr-CH.js",
+      "input": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\ui\\i18n\\jquery.ui.datepicker-fr-CH.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "34f1185b": {
+      "id": "34f1185b",
+      "pid": "ad0d0c64",
+      "name": "modernizr.custom.js",
+      "input": "assets\\plugins\\modernizr.custom.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "4fdcca7e": {
+      "id": "4fdcca7e",
+      "pid": "ad0d0c64",
+      "name": "Gruntfile.coffee",
+      "input": "assets\\plugins\\pace\\Gruntfile.coffee",
+      "customOutput": false,
+      "type": "Coffee",
+      "config": {
+        "autoCompile": false,
+        "bare": false,
+        "uglify": false,
+        "mangle": true,
+        "iced": false,
+        "sourcemaps": false
+      }
+    },
+    "c1244201": {
+      "id": "c1244201",
+      "pid": "ad0d0c64",
+      "name": "intro.md",
+      "input": "assets\\plugins\\pace\\docs\\intro.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": false,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "d8499c13": {
+      "id": "d8499c13",
+      "pid": "ad0d0c64",
+      "name": "color.js",
+      "input": "assets\\plugins\\pace\\docs\\lib\\color.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "d1ffb191": {
+      "id": "d1ffb191",
+      "pid": "ad0d0c64",
+      "name": "themes.coffee",
+      "input": "assets\\plugins\\pace\\docs\\lib\\themes.coffee",
+      "customOutput": false,
+      "type": "Coffee",
+      "config": {
+        "autoCompile": false,
+        "bare": false,
+        "uglify": false,
+        "mangle": true,
+        "iced": false,
+        "sourcemaps": false
+      }
+    },
+    "895c6c63": {
+      "id": "895c6c63",
+      "pid": "ad0d0c64",
+      "name": "themes.js",
+      "input": "assets\\plugins\\pace\\docs\\lib\\themes.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "8fddeb72": {
+      "id": "8fddeb72",
+      "pid": "ad0d0c64",
+      "name": "index.jade",
+      "input": "assets\\plugins\\pace\\docs\\resources\\templates\\index.jade",
+      "customOutput": false,
+      "type": "Jade",
+      "config": {
+        "autoCompile": false,
+        "pretty": true
+      }
+    },
+    "d7239718": {
+      "id": "d7239718",
+      "pid": "ad0d0c64",
+      "name": "page.jade",
+      "input": "assets\\plugins\\pace\\docs\\resources\\templates\\page.jade",
+      "customOutput": false,
+      "type": "Jade",
+      "config": {
+        "autoCompile": false,
+        "pretty": true
+      }
+    },
+    "5fce6d39": {
+      "id": "5fce6d39",
+      "pid": "ad0d0c64",
+      "name": "bootstrap.js",
+      "input": "assets\\plugins\\bootstrap\\js\\bootstrap.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "5dae7bac": {
+      "id": "5dae7bac",
+      "pid": "ad0d0c64",
+      "name": "pace.coffee",
+      "input": "assets\\plugins\\pace\\pace.coffee",
+      "customOutput": false,
+      "type": "Coffee",
+      "config": {
+        "autoCompile": false,
+        "bare": false,
+        "uglify": false,
+        "mangle": true,
+        "iced": false,
+        "sourcemaps": false
+      }
+    },
+    "57c85312": {
+      "id": "57c85312",
+      "pid": "ad0d0c64",
+      "name": "pace.js",
+      "input": "assets\\plugins\\pace\\pace.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "bc969a73": {
+      "id": "bc969a73",
+      "pid": "ad0d0c64",
+      "name": "README.md",
+      "input": "assets\\plugins\\pace\\README.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": false,
+        "sanitize": false,
+        "gfm": true
+      }
+    }
+  },
+  "imports": {
+    "523a032e": {
+      "id": "523a032e",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\less\\variables.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "af5e4a7f": {
+      "id": "af5e4a7f",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\less\\mixins.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "7dd09cca": {
+      "id": "7dd09cca",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\less\\path.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "c6abf10b": {
+      "id": "c6abf10b",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\less\\core.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "1b6900d0": {
+      "id": "1b6900d0",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\less\\larger.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "5cce5dd7": {
+      "id": "5cce5dd7",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\less\\fixed-width.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "47700c5e": {
+      "id": "47700c5e",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\less\\list.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "5424aa5e": {
+      "id": "5424aa5e",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\less\\bordered-pulled.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "8d93bfb6": {
+      "id": "8d93bfb6",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\less\\spinning.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "ef05b887": {
+      "id": "ef05b887",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\less\\rotated-flipped.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "b40d0f34": {
+      "id": "b40d0f34",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\less\\stacked.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "410c3e49": {
+      "id": "410c3e49",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\less\\icons.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "4b54d9b8": {
+      "id": "4b54d9b8",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\scss\\_variables.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "e7b42717": {
+      "id": "e7b42717",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\scss\\_mixins.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "ef284a17": {
+      "id": "ef284a17",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\scss\\_path.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "011b7777": {
+      "id": "011b7777",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\scss\\_core.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "fd54f053": {
+      "id": "fd54f053",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\scss\\_larger.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "4c5e04cd": {
+      "id": "4c5e04cd",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\scss\\_fixed-width.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "43f68196": {
+      "id": "43f68196",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\scss\\_list.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "655824dc": {
+      "id": "655824dc",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\scss\\_bordered-pulled.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "a9ceb569": {
+      "id": "a9ceb569",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\scss\\_spinning.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "04ac4704": {
+      "id": "04ac4704",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\scss\\_rotated-flipped.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "3eefd0a0": {
+      "id": "3eefd0a0",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\scss\\_stacked.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "cd2cab7d": {
+      "id": "cd2cab7d",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\scss\\_icons.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "7389dca9": {
+      "id": "7389dca9",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\bootstrap\\css\\bootstrap.css",
+      "parents": [
+        "496989b3"
+      ]
+    },
+    "27943a78": {
+      "id": "27943a78",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\bootstrap\\css\\bootstrap-theme.css",
+      "parents": [
+        "496989b3"
+      ]
+    },
+    "7e00b59b": {
+      "id": "7e00b59b",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\bootstrap-jasny\\css\\jasny-bootstrap.css",
+      "parents": [
+        "496989b3"
+      ]
+    },
+    "ad40b6ac": {
+      "id": "ad40b6ac",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\font-awesome\\css\\font-awesome.css",
+      "parents": [
+        "496989b3"
+      ]
+    }
+  },
+  "images": {
+    "ccb6eb6a": {
+      "id": "ccb6eb6a",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionLogo\\bg.jpg",
+      "size": 154352,
+      "name": "bg.jpg",
+      "type": "Jpg",
+      "initialSize": 154352,
+      "status": "NOT_OPTIMIZED"
+    },
+    "13ea8a1b": {
+      "id": "13ea8a1b",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionLogo\\logo.png",
+      "size": 2482,
+      "name": "logo.png",
+      "type": "Png",
+      "initialSize": 2482,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a34ca5b6": {
+      "id": "a34ca5b6",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\bxslider\\images\\controls.png",
+      "size": 2806,
+      "name": "controls.png",
+      "type": "Png",
+      "initialSize": 2806,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9435b06c": {
+      "id": "9435b06c",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\css\\ui-lightness\\images\\ui-bg_diagonals-thick_18_b81900_40x40.png",
+      "size": 418,
+      "name": "ui-bg_diagonals-thick_18_b81900_40x40.png",
+      "type": "Png",
+      "initialSize": 418,
+      "status": "NOT_OPTIMIZED"
+    },
+    "6f664fd1": {
+      "id": "6f664fd1",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\css\\ui-lightness\\images\\ui-bg_diagonals-thick_20_666666_40x40.png",
+      "size": 312,
+      "name": "ui-bg_diagonals-thick_20_666666_40x40.png",
+      "type": "Png",
+      "initialSize": 312,
+      "status": "NOT_OPTIMIZED"
+    },
+    "fee3aa69": {
+      "id": "fee3aa69",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\css\\ui-lightness\\images\\ui-bg_flat_10_000000_40x100.png",
+      "size": 205,
+      "name": "ui-bg_flat_10_000000_40x100.png",
+      "type": "Png",
+      "initialSize": 205,
+      "status": "NOT_OPTIMIZED"
+    },
+    "eeebc933": {
+      "id": "eeebc933",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\css\\ui-lightness\\images\\ui-bg_glass_100_f6f6f6_1x400.png",
+      "size": 262,
+      "name": "ui-bg_glass_100_f6f6f6_1x400.png",
+      "type": "Png",
+      "initialSize": 262,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3b33a0b7": {
+      "id": "3b33a0b7",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\css\\ui-lightness\\images\\ui-bg_glass_100_fdf5ce_1x400.png",
+      "size": 348,
+      "name": "ui-bg_glass_100_fdf5ce_1x400.png",
+      "type": "Png",
+      "initialSize": 348,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2ec75c1c": {
+      "id": "2ec75c1c",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\css\\ui-lightness\\images\\ui-bg_glass_65_ffffff_1x400.png",
+      "size": 207,
+      "name": "ui-bg_glass_65_ffffff_1x400.png",
+      "type": "Png",
+      "initialSize": 207,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e219c7d9": {
+      "id": "e219c7d9",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\css\\ui-lightness\\images\\ui-bg_gloss-wave_35_f6a828_500x100.png",
+      "size": 5815,
+      "name": "ui-bg_gloss-wave_35_f6a828_500x100.png",
+      "type": "Png",
+      "initialSize": 5815,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9ac2098d": {
+      "id": "9ac2098d",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\css\\ui-lightness\\images\\ui-bg_highlight-soft_100_eeeeee_1x100.png",
+      "size": 278,
+      "name": "ui-bg_highlight-soft_100_eeeeee_1x100.png",
+      "type": "Png",
+      "initialSize": 278,
+      "status": "NOT_OPTIMIZED"
+    },
+    "cc921bb9": {
+      "id": "cc921bb9",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\css\\ui-lightness\\images\\ui-bg_highlight-soft_75_ffe45c_1x100.png",
+      "size": 328,
+      "name": "ui-bg_highlight-soft_75_ffe45c_1x100.png",
+      "type": "Png",
+      "initialSize": 328,
+      "status": "NOT_OPTIMIZED"
+    },
+    "13c1a287": {
+      "id": "13c1a287",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\css\\ui-lightness\\images\\ui-icons_222222_256x240.png",
+      "size": 6922,
+      "name": "ui-icons_222222_256x240.png",
+      "type": "Png",
+      "initialSize": 6922,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e1bb514c": {
+      "id": "e1bb514c",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\css\\ui-lightness\\images\\ui-icons_228ef1_256x240.png",
+      "size": 4549,
+      "name": "ui-icons_228ef1_256x240.png",
+      "type": "Png",
+      "initialSize": 4549,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2ae00b69": {
+      "id": "2ae00b69",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\css\\ui-lightness\\images\\ui-icons_ef8c08_256x240.png",
+      "size": 4549,
+      "name": "ui-icons_ef8c08_256x240.png",
+      "type": "Png",
+      "initialSize": 4549,
+      "status": "NOT_OPTIMIZED"
+    },
+    "70c9f58e": {
+      "id": "70c9f58e",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\css\\ui-lightness\\images\\ui-icons_ffd27a_256x240.png",
+      "size": 4549,
+      "name": "ui-icons_ffd27a_256x240.png",
+      "type": "Png",
+      "initialSize": 4549,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3f65579a": {
+      "id": "3f65579a",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\css\\ui-lightness\\images\\ui-icons_ffffff_256x240.png",
+      "size": 6299,
+      "name": "ui-icons_ffffff_256x240.png",
+      "type": "Png",
+      "initialSize": 6299,
+      "status": "NOT_OPTIMIZED"
+    },
+    "867a32ab": {
+      "id": "867a32ab",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\autocomplete\\images\\jqueryui_32x32.png",
+      "size": 1193,
+      "name": "jqueryui_32x32.png",
+      "type": "Png",
+      "initialSize": 1193,
+      "status": "NOT_OPTIMIZED"
+    },
+    "30afb83f": {
+      "id": "30afb83f",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\autocomplete\\images\\jquery_32x32.png",
+      "size": 1417,
+      "name": "jquery_32x32.png",
+      "type": "Png",
+      "initialSize": 1417,
+      "status": "NOT_OPTIMIZED"
+    },
+    "062e074e": {
+      "id": "062e074e",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\autocomplete\\images\\sizzlejs_32x32.png",
+      "size": 999,
+      "name": "sizzlejs_32x32.png",
+      "type": "Png",
+      "initialSize": 999,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a147af8b": {
+      "id": "a147af8b",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\autocomplete\\images\\transparent_1x1.png",
+      "size": 95,
+      "name": "transparent_1x1.png",
+      "type": "Png",
+      "initialSize": 95,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0c403d92": {
+      "id": "0c403d92",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\droppable\\images\\high_tatras.jpg",
+      "size": 22994,
+      "name": "high_tatras.jpg",
+      "type": "Jpg",
+      "initialSize": 22994,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d56cd0d9": {
+      "id": "d56cd0d9",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\droppable\\images\\high_tatras2.jpg",
+      "size": 25619,
+      "name": "high_tatras2.jpg",
+      "type": "Jpg",
+      "initialSize": 25619,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7d7f96db": {
+      "id": "7d7f96db",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\droppable\\images\\high_tatras2_min.jpg",
+      "size": 2164,
+      "name": "high_tatras2_min.jpg",
+      "type": "Jpg",
+      "initialSize": 2164,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4f5b904a": {
+      "id": "4f5b904a",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\droppable\\images\\high_tatras3.jpg",
+      "size": 24583,
+      "name": "high_tatras3.jpg",
+      "type": "Jpg",
+      "initialSize": 24583,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a14316a0": {
+      "id": "a14316a0",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\droppable\\images\\high_tatras3_min.jpg",
+      "size": 1901,
+      "name": "high_tatras3_min.jpg",
+      "type": "Jpg",
+      "initialSize": 1901,
+      "status": "NOT_OPTIMIZED"
+    },
+    "38c16f1d": {
+      "id": "38c16f1d",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\droppable\\images\\high_tatras4.jpg",
+      "size": 24870,
+      "name": "high_tatras4.jpg",
+      "type": "Jpg",
+      "initialSize": 24870,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1ff813dd": {
+      "id": "1ff813dd",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\droppable\\images\\high_tatras4_min.jpg",
+      "size": 2541,
+      "name": "high_tatras4_min.jpg",
+      "type": "Jpg",
+      "initialSize": 2541,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3410b5e5": {
+      "id": "3410b5e5",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\droppable\\images\\high_tatras_min.jpg",
+      "size": 2147,
+      "name": "high_tatras_min.jpg",
+      "type": "Jpg",
+      "initialSize": 2147,
+      "status": "NOT_OPTIMIZED"
+    },
+    "250e51d2": {
+      "id": "250e51d2",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\position\\images\\earth.jpg",
+      "size": 29850,
+      "name": "earth.jpg",
+      "type": "Jpg",
+      "initialSize": 29850,
+      "status": "NOT_OPTIMIZED"
+    },
+    "55d512f1": {
+      "id": "55d512f1",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\position\\images\\flight.jpg",
+      "size": 33637,
+      "name": "flight.jpg",
+      "type": "Jpg",
+      "initialSize": 33637,
+      "status": "NOT_OPTIMIZED"
+    },
+    "249919ce": {
+      "id": "249919ce",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\position\\images\\rocket.jpg",
+      "size": 32986,
+      "name": "rocket.jpg",
+      "type": "Jpg",
+      "initialSize": 32986,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d1ccd252": {
+      "id": "d1ccd252",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\tooltip\\images\\st-stephens.jpg",
+      "size": 17724,
+      "name": "st-stephens.jpg",
+      "type": "Jpg",
+      "initialSize": 17724,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e3c67c77": {
+      "id": "e3c67c77",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\demos\\tooltip\\images\\tower-bridge.jpg",
+      "size": 15764,
+      "name": "tower-bridge.jpg",
+      "type": "Jpg",
+      "initialSize": 15764,
+      "status": "NOT_OPTIMIZED"
+    },
+    "87d627b0": {
+      "id": "87d627b0",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\images\\ui-bg_flat_0_aaaaaa_40x100.png",
+      "size": 180,
+      "name": "ui-bg_flat_0_aaaaaa_40x100.png",
+      "type": "Png",
+      "initialSize": 180,
+      "status": "NOT_OPTIMIZED"
+    },
+    "72b10f61": {
+      "id": "72b10f61",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\images\\ui-bg_flat_75_ffffff_40x100.png",
+      "size": 178,
+      "name": "ui-bg_flat_75_ffffff_40x100.png",
+      "type": "Png",
+      "initialSize": 178,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4edc5309": {
+      "id": "4edc5309",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\images\\ui-bg_glass_55_fbf9ee_1x400.png",
+      "size": 120,
+      "name": "ui-bg_glass_55_fbf9ee_1x400.png",
+      "type": "Png",
+      "initialSize": 120,
+      "status": "NOT_OPTIMIZED"
+    },
+    "38beada4": {
+      "id": "38beada4",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\images\\ui-bg_glass_65_ffffff_1x400.png",
+      "size": 105,
+      "name": "ui-bg_glass_65_ffffff_1x400.png",
+      "type": "Png",
+      "initialSize": 105,
+      "status": "NOT_OPTIMIZED"
+    },
+    "fc5d8b2b": {
+      "id": "fc5d8b2b",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\images\\ui-bg_glass_75_dadada_1x400.png",
+      "size": 111,
+      "name": "ui-bg_glass_75_dadada_1x400.png",
+      "type": "Png",
+      "initialSize": 111,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4677ddbe": {
+      "id": "4677ddbe",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\images\\ui-bg_glass_75_e6e6e6_1x400.png",
+      "size": 110,
+      "name": "ui-bg_glass_75_e6e6e6_1x400.png",
+      "type": "Png",
+      "initialSize": 110,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7b9eefed": {
+      "id": "7b9eefed",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\images\\ui-bg_glass_95_fef1ec_1x400.png",
+      "size": 119,
+      "name": "ui-bg_glass_95_fef1ec_1x400.png",
+      "type": "Png",
+      "initialSize": 119,
+      "status": "NOT_OPTIMIZED"
+    },
+    "21eadc69": {
+      "id": "21eadc69",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\images\\ui-bg_highlight-soft_75_cccccc_1x100.png",
+      "size": 101,
+      "name": "ui-bg_highlight-soft_75_cccccc_1x100.png",
+      "type": "Png",
+      "initialSize": 101,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9f8931b5": {
+      "id": "9f8931b5",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\images\\ui-icons_222222_256x240.png",
+      "size": 4369,
+      "name": "ui-icons_222222_256x240.png",
+      "type": "Png",
+      "initialSize": 4369,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0257ba1d": {
+      "id": "0257ba1d",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\images\\ui-icons_2e83ff_256x240.png",
+      "size": 4369,
+      "name": "ui-icons_2e83ff_256x240.png",
+      "type": "Png",
+      "initialSize": 4369,
+      "status": "NOT_OPTIMIZED"
+    },
+    "aa968014": {
+      "id": "aa968014",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\images\\ui-icons_454545_256x240.png",
+      "size": 4369,
+      "name": "ui-icons_454545_256x240.png",
+      "type": "Png",
+      "initialSize": 4369,
+      "status": "NOT_OPTIMIZED"
+    },
+    "feef52ea": {
+      "id": "feef52ea",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\images\\ui-icons_888888_256x240.png",
+      "size": 4369,
+      "name": "ui-icons_888888_256x240.png",
+      "type": "Png",
+      "initialSize": 4369,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1023db9a": {
+      "id": "1023db9a",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\images\\ui-icons_cd0a0a_256x240.png",
+      "size": 4369,
+      "name": "ui-icons_cd0a0a_256x240.png",
+      "type": "Png",
+      "initialSize": 4369,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d934f548": {
+      "id": "d934f548",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\minified\\images\\ui-bg_flat_0_aaaaaa_40x100.png",
+      "size": 180,
+      "name": "ui-bg_flat_0_aaaaaa_40x100.png",
+      "type": "Png",
+      "initialSize": 180,
+      "status": "NOT_OPTIMIZED"
+    },
+    "66b757e1": {
+      "id": "66b757e1",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\minified\\images\\ui-bg_flat_75_ffffff_40x100.png",
+      "size": 178,
+      "name": "ui-bg_flat_75_ffffff_40x100.png",
+      "type": "Png",
+      "initialSize": 178,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5f2b715a": {
+      "id": "5f2b715a",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\minified\\images\\ui-bg_glass_55_fbf9ee_1x400.png",
+      "size": 120,
+      "name": "ui-bg_glass_55_fbf9ee_1x400.png",
+      "type": "Png",
+      "initialSize": 120,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9573e598": {
+      "id": "9573e598",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\minified\\images\\ui-bg_glass_65_ffffff_1x400.png",
+      "size": 105,
+      "name": "ui-bg_glass_65_ffffff_1x400.png",
+      "type": "Png",
+      "initialSize": 105,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0f41a4d6": {
+      "id": "0f41a4d6",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\minified\\images\\ui-bg_glass_75_dadada_1x400.png",
+      "size": 111,
+      "name": "ui-bg_glass_75_dadada_1x400.png",
+      "type": "Png",
+      "initialSize": 111,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ccf33ceb": {
+      "id": "ccf33ceb",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\minified\\images\\ui-bg_glass_75_e6e6e6_1x400.png",
+      "size": 110,
+      "name": "ui-bg_glass_75_e6e6e6_1x400.png",
+      "type": "Png",
+      "initialSize": 110,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ee939ff6": {
+      "id": "ee939ff6",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\minified\\images\\ui-bg_glass_95_fef1ec_1x400.png",
+      "size": 119,
+      "name": "ui-bg_glass_95_fef1ec_1x400.png",
+      "type": "Png",
+      "initialSize": 119,
+      "status": "NOT_OPTIMIZED"
+    },
+    "37ad4161": {
+      "id": "37ad4161",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\minified\\images\\ui-bg_highlight-soft_75_cccccc_1x100.png",
+      "size": 101,
+      "name": "ui-bg_highlight-soft_75_cccccc_1x100.png",
+      "type": "Png",
+      "initialSize": 101,
+      "status": "NOT_OPTIMIZED"
+    },
+    "923b148b": {
+      "id": "923b148b",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\minified\\images\\ui-icons_222222_256x240.png",
+      "size": 4369,
+      "name": "ui-icons_222222_256x240.png",
+      "type": "Png",
+      "initialSize": 4369,
+      "status": "NOT_OPTIMIZED"
+    },
+    "676e6761": {
+      "id": "676e6761",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\minified\\images\\ui-icons_2e83ff_256x240.png",
+      "size": 4369,
+      "name": "ui-icons_2e83ff_256x240.png",
+      "type": "Png",
+      "initialSize": 4369,
+      "status": "NOT_OPTIMIZED"
+    },
+    "eb80a501": {
+      "id": "eb80a501",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\minified\\images\\ui-icons_454545_256x240.png",
+      "size": 4369,
+      "name": "ui-icons_454545_256x240.png",
+      "type": "Png",
+      "initialSize": 4369,
+      "status": "NOT_OPTIMIZED"
+    },
+    "73d58a1f": {
+      "id": "73d58a1f",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\minified\\images\\ui-icons_888888_256x240.png",
+      "size": 4369,
+      "name": "ui-icons_888888_256x240.png",
+      "type": "Png",
+      "initialSize": 4369,
+      "status": "NOT_OPTIMIZED"
+    },
+    "57acc091": {
+      "id": "57acc091",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\base\\minified\\images\\ui-icons_cd0a0a_256x240.png",
+      "size": 4369,
+      "name": "ui-icons_cd0a0a_256x240.png",
+      "type": "Png",
+      "initialSize": 4369,
+      "status": "NOT_OPTIMIZED"
+    },
+    "936b431c": {
+      "id": "936b431c",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\images\\ui-bg_diagonals-thick_18_b81900_40x40.png",
+      "size": 418,
+      "name": "ui-bg_diagonals-thick_18_b81900_40x40.png",
+      "type": "Png",
+      "initialSize": 418,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2ff52a49": {
+      "id": "2ff52a49",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\images\\ui-bg_diagonals-thick_20_666666_40x40.png",
+      "size": 312,
+      "name": "ui-bg_diagonals-thick_20_666666_40x40.png",
+      "type": "Png",
+      "initialSize": 312,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9c2f90c6": {
+      "id": "9c2f90c6",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\images\\ui-bg_flat_10_000000_40x100.png",
+      "size": 205,
+      "name": "ui-bg_flat_10_000000_40x100.png",
+      "type": "Png",
+      "initialSize": 205,
+      "status": "NOT_OPTIMIZED"
+    },
+    "15d2f388": {
+      "id": "15d2f388",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\images\\ui-bg_glass_100_f6f6f6_1x400.png",
+      "size": 262,
+      "name": "ui-bg_glass_100_f6f6f6_1x400.png",
+      "type": "Png",
+      "initialSize": 262,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5ad00ad8": {
+      "id": "5ad00ad8",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\images\\ui-bg_glass_100_fdf5ce_1x400.png",
+      "size": 348,
+      "name": "ui-bg_glass_100_fdf5ce_1x400.png",
+      "type": "Png",
+      "initialSize": 348,
+      "status": "NOT_OPTIMIZED"
+    },
+    "756eb477": {
+      "id": "756eb477",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\images\\ui-bg_glass_65_ffffff_1x400.png",
+      "size": 207,
+      "name": "ui-bg_glass_65_ffffff_1x400.png",
+      "type": "Png",
+      "initialSize": 207,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4398615f": {
+      "id": "4398615f",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\images\\ui-bg_gloss-wave_35_f6a828_500x100.png",
+      "size": 5815,
+      "name": "ui-bg_gloss-wave_35_f6a828_500x100.png",
+      "type": "Png",
+      "initialSize": 5815,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3167e49d": {
+      "id": "3167e49d",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\images\\ui-bg_highlight-soft_100_eeeeee_1x100.png",
+      "size": 278,
+      "name": "ui-bg_highlight-soft_100_eeeeee_1x100.png",
+      "type": "Png",
+      "initialSize": 278,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e0287ef0": {
+      "id": "e0287ef0",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\images\\ui-bg_highlight-soft_75_ffe45c_1x100.png",
+      "size": 328,
+      "name": "ui-bg_highlight-soft_75_ffe45c_1x100.png",
+      "type": "Png",
+      "initialSize": 328,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3db02a41": {
+      "id": "3db02a41",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\images\\ui-icons_222222_256x240.png",
+      "size": 6922,
+      "name": "ui-icons_222222_256x240.png",
+      "type": "Png",
+      "initialSize": 6922,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c07a45f6": {
+      "id": "c07a45f6",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\images\\ui-icons_228ef1_256x240.png",
+      "size": 4549,
+      "name": "ui-icons_228ef1_256x240.png",
+      "type": "Png",
+      "initialSize": 4549,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7cbc5d35": {
+      "id": "7cbc5d35",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\images\\ui-icons_ef8c08_256x240.png",
+      "size": 4549,
+      "name": "ui-icons_ef8c08_256x240.png",
+      "type": "Png",
+      "initialSize": 4549,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ab110977": {
+      "id": "ab110977",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\images\\ui-icons_ffd27a_256x240.png",
+      "size": 4549,
+      "name": "ui-icons_ffd27a_256x240.png",
+      "type": "Png",
+      "initialSize": 4549,
+      "status": "NOT_OPTIMIZED"
+    },
+    "bb9d23a0": {
+      "id": "bb9d23a0",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\images\\ui-icons_ffffff_256x240.png",
+      "size": 6299,
+      "name": "ui-icons_ffffff_256x240.png",
+      "type": "Png",
+      "initialSize": 6299,
+      "status": "NOT_OPTIMIZED"
+    },
+    "bd175459": {
+      "id": "bd175459",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\minified\\images\\ui-bg_diagonals-thick_18_b81900_40x40.png",
+      "size": 418,
+      "name": "ui-bg_diagonals-thick_18_b81900_40x40.png",
+      "type": "Png",
+      "initialSize": 418,
+      "status": "NOT_OPTIMIZED"
+    },
+    "535c6617": {
+      "id": "535c6617",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\minified\\images\\ui-bg_diagonals-thick_20_666666_40x40.png",
+      "size": 312,
+      "name": "ui-bg_diagonals-thick_20_666666_40x40.png",
+      "type": "Png",
+      "initialSize": 312,
+      "status": "NOT_OPTIMIZED"
+    },
+    "62db9540": {
+      "id": "62db9540",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\minified\\images\\ui-bg_flat_10_000000_40x100.png",
+      "size": 205,
+      "name": "ui-bg_flat_10_000000_40x100.png",
+      "type": "Png",
+      "initialSize": 205,
+      "status": "NOT_OPTIMIZED"
+    },
+    "38b5d41b": {
+      "id": "38b5d41b",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\minified\\images\\ui-bg_glass_100_f6f6f6_1x400.png",
+      "size": 262,
+      "name": "ui-bg_glass_100_f6f6f6_1x400.png",
+      "type": "Png",
+      "initialSize": 262,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d42fe9d9": {
+      "id": "d42fe9d9",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\minified\\images\\ui-bg_glass_100_fdf5ce_1x400.png",
+      "size": 348,
+      "name": "ui-bg_glass_100_fdf5ce_1x400.png",
+      "type": "Png",
+      "initialSize": 348,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c554ec6b": {
+      "id": "c554ec6b",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\minified\\images\\ui-bg_glass_65_ffffff_1x400.png",
+      "size": 207,
+      "name": "ui-bg_glass_65_ffffff_1x400.png",
+      "type": "Png",
+      "initialSize": 207,
+      "status": "NOT_OPTIMIZED"
+    },
+    "865d24e8": {
+      "id": "865d24e8",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\minified\\images\\ui-bg_gloss-wave_35_f6a828_500x100.png",
+      "size": 5815,
+      "name": "ui-bg_gloss-wave_35_f6a828_500x100.png",
+      "type": "Png",
+      "initialSize": 5815,
+      "status": "NOT_OPTIMIZED"
+    },
+    "32fecd11": {
+      "id": "32fecd11",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\minified\\images\\ui-bg_highlight-soft_100_eeeeee_1x100.png",
+      "size": 278,
+      "name": "ui-bg_highlight-soft_100_eeeeee_1x100.png",
+      "type": "Png",
+      "initialSize": 278,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b85bdbc0": {
+      "id": "b85bdbc0",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\minified\\images\\ui-bg_highlight-soft_75_ffe45c_1x100.png",
+      "size": 328,
+      "name": "ui-bg_highlight-soft_75_ffe45c_1x100.png",
+      "type": "Png",
+      "initialSize": 328,
+      "status": "NOT_OPTIMIZED"
+    },
+    "52f63651": {
+      "id": "52f63651",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\minified\\images\\ui-icons_222222_256x240.png",
+      "size": 6922,
+      "name": "ui-icons_222222_256x240.png",
+      "type": "Png",
+      "initialSize": 6922,
+      "status": "NOT_OPTIMIZED"
+    },
+    "69be9178": {
+      "id": "69be9178",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\minified\\images\\ui-icons_228ef1_256x240.png",
+      "size": 4549,
+      "name": "ui-icons_228ef1_256x240.png",
+      "type": "Png",
+      "initialSize": 4549,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1d0fffe2": {
+      "id": "1d0fffe2",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\minified\\images\\ui-icons_ef8c08_256x240.png",
+      "size": 4549,
+      "name": "ui-icons_ef8c08_256x240.png",
+      "type": "Png",
+      "initialSize": 4549,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2eaf8ea7": {
+      "id": "2eaf8ea7",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\minified\\images\\ui-icons_ffd27a_256x240.png",
+      "size": 4549,
+      "name": "ui-icons_ffd27a_256x240.png",
+      "type": "Png",
+      "initialSize": 4549,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8450dbd4": {
+      "id": "8450dbd4",
+      "pid": "ad0d0c64",
+      "path": "assets\\plugins\\jquery-ui-1.10.4\\development-bundle\\themes\\ui-lightness\\minified\\images\\ui-icons_ffffff_256x240.png",
+      "size": 6299,
+      "name": "ui-icons_ffffff_256x240.png",
+      "type": "Png",
+      "initialSize": 6299,
+      "status": "NOT_OPTIMIZED"
+    }
+  },
+  "config": {
+    "watch": true,
+    "liveRefresh": true,
+    "liveRefreshDelay": 0,
+    "filterPatterns": "/assets/plugins",
+    "useCustomServer": false,
+    "customServerUrl": "",
+    "cssPath": "../../site/assets/css/",
+    "jsPath": "../../site/assets/scripts/",
+    "htmlPath": "../.../site/",
+    "minJsPath": "min/",
+    "htmlExtension": ".html",
+    "cssPathType": "REPLACE_TYPE",
+    "htmlPathType": "REPLACE_TYPE",
+    "jsPathType": "REPLACE_TYPE",
+    "minJsPathType": "RELATIVE_FILEDIR",
+    "htmlTypes": "jade, haml, slim, markdown, md",
+    "cssTypes": "less, sass, stylus, scss, styl",
+    "jsTypes": "coffee, coffeescript, coffeescripts, ls, livescript, livescripts",
+    "cssPreprocessorPath": "",
+    "htmlPreprocessorPath": "",
+    "jsPreprocessorPath": "",
+    "minJsPreprocessorPath": "",
+    "autoprefixerBrowsers": "",
+    "ftpHost": "blue-net.pl",
+    "ftpPort": "21",
+    "ftpRemotePath": "/domains/themes.blue-net.eu/public_html/phototravel/",
+    "ftpIgnorePreprocessorFiles": false,
+    "ftpType": "FTP",
+    "ftpExcludePatterns": "",
+    "ftpSecure": false,
+    "ftpPassword": "",
+    "ftpUsername": ""
+  }
+}
