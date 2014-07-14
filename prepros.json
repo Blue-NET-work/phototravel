@@ -2027,6 +2027,366 @@
         "mangle": true,
         "sourcemaps": false
       }
+    },
+    "d14d9c9d": {
+      "id": "d14d9c9d",
+      "pid": "ad0d0c64",
+      "name": "jquery.parallax-1.1.3.js",
+      "input": "assets\\plugins\\jquery.parallax-1.1.3.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "306329b3": {
+      "id": "306329b3",
+      "pid": "ad0d0c64",
+      "name": "jquery.localscroll-1.2.7-min.js",
+      "input": "assets\\plugins\\jquery.localscroll-1.2.7-min.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "9b87ad01": {
+      "id": "9b87ad01",
+      "pid": "ad0d0c64",
+      "name": "jquery.scrollTo-1.4.2-min.js",
+      "input": "assets\\plugins\\jquery.scrollTo-1.4.2-min.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "b165d1cc": {
+      "id": "b165d1cc",
+      "pid": "ad0d0c64",
+      "name": "README.md",
+      "input": "assets\\plugins\\jquery-plugin-circliful-master\\README.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "f7b30b8e": {
+      "id": "f7b30b8e",
+      "pid": "ad0d0c64",
+      "name": "jquery.circliful.js",
+      "input": "assets\\plugins\\jquery-plugin-circliful-master\\js\\jquery.circliful.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "4fba8624": {
+      "id": "4fba8624",
+      "pid": "ad0d0c64",
+      "name": "README.md",
+      "input": "assets\\plugins\\jquery-plugin-circliful\\README.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "151664f6": {
+      "id": "151664f6",
+      "pid": "ad0d0c64",
+      "name": "jquery.circliful.js",
+      "input": "assets\\plugins\\jquery-plugin-circliful\\js\\jquery.circliful.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "7a7c581d": {
+      "id": "7a7c581d",
+      "pid": "ad0d0c64",
+      "name": "CHANGELOG.md",
+      "input": "assets\\plugins\\mixitup-master\\CHANGELOG.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "e1e940fb": {
+      "id": "e1e940fb",
+      "pid": "ad0d0c64",
+      "name": "Gruntfile.js",
+      "input": "assets\\plugins\\mixitup-master\\Gruntfile.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "c6ee8fac": {
+      "id": "c6ee8fac",
+      "pid": "ad0d0c64",
+      "name": "LICENSE.md",
+      "input": "assets\\plugins\\mixitup-master\\LICENSE.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "b03d791b": {
+      "id": "b03d791b",
+      "pid": "ad0d0c64",
+      "name": "README.md",
+      "input": "assets\\plugins\\mixitup-master\\README.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "d4779928": {
+      "id": "d4779928",
+      "pid": "ad0d0c64",
+      "name": "api-methods.md",
+      "input": "assets\\plugins\\mixitup-master\\docs\\api-methods.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "79fedc77": {
+      "id": "79fedc77",
+      "pid": "ad0d0c64",
+      "name": "state-object.md",
+      "input": "assets\\plugins\\mixitup-master\\docs\\state-object.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "75ad9dd6": {
+      "id": "75ad9dd6",
+      "pid": "ad0d0c64",
+      "name": "configuration-object.md",
+      "input": "assets\\plugins\\mixitup-master\\docs\\configuration-object.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "f1c33903": {
+      "id": "f1c33903",
+      "pid": "ad0d0c64",
+      "name": "version-1-migration.md",
+      "input": "assets\\plugins\\mixitup-master\\docs\\version-1-migration.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "15832e9b": {
+      "id": "15832e9b",
+      "pid": "ad0d0c64",
+      "name": "jquery.mixitup.js",
+      "input": "assets\\plugins\\mixitup-master\\src\\jquery.mixitup.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "d7d1698d": {
+      "id": "d7d1698d",
+      "pid": "ad0d0c64",
+      "name": "events.md",
+      "input": "assets\\plugins\\mixitup-master\\docs\\events.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "8ccb7e99": {
+      "id": "8ccb7e99",
+      "pid": "ad0d0c64",
+      "name": "CHANGELOG.md",
+      "input": "assets\\plugins\\mixitup\\CHANGELOG.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "e24151f5": {
+      "id": "e24151f5",
+      "pid": "ad0d0c64",
+      "name": "Gruntfile.js",
+      "input": "assets\\plugins\\mixitup\\Gruntfile.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "73e3d46b": {
+      "id": "73e3d46b",
+      "pid": "ad0d0c64",
+      "name": "LICENSE.md",
+      "input": "assets\\plugins\\mixitup\\LICENSE.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "9a4153d2": {
+      "id": "9a4153d2",
+      "pid": "ad0d0c64",
+      "name": "README.md",
+      "input": "assets\\plugins\\mixitup\\README.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "99d95b82": {
+      "id": "99d95b82",
+      "pid": "ad0d0c64",
+      "name": "api-methods.md",
+      "input": "assets\\plugins\\mixitup\\docs\\api-methods.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "4bef808b": {
+      "id": "4bef808b",
+      "pid": "ad0d0c64",
+      "name": "events.md",
+      "input": "assets\\plugins\\mixitup\\docs\\events.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "e33bcc91": {
+      "id": "e33bcc91",
+      "pid": "ad0d0c64",
+      "name": "configuration-object.md",
+      "input": "assets\\plugins\\mixitup\\docs\\configuration-object.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "2649a38e": {
+      "id": "2649a38e",
+      "pid": "ad0d0c64",
+      "name": "version-1-migration.md",
+      "input": "assets\\plugins\\mixitup\\docs\\version-1-migration.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "0a24ff71": {
+      "id": "0a24ff71",
+      "pid": "ad0d0c64",
+      "name": "jquery.mixitup.js",
+      "input": "assets\\plugins\\mixitup\\src\\jquery.mixitup.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "3785fed9": {
+      "id": "3785fed9",
+      "pid": "ad0d0c64",
+      "name": "state-object.md",
+      "input": "assets\\plugins\\mixitup\\docs\\state-object.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
     }
   },
   "imports": {
