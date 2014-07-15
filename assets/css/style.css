@@ -25,9 +25,9 @@ License URI: URI: http://themeforest.net/licenses
 	5.1 Team Persons
 6. Modern Techniques
 7. Made Projects
-
-x. Footer
-x. Copyright
+8. Customer Reviews
+9. Footer
+10. Copyright
 
 ------------------------------------------------------------------*/
 /*------------------------------------------------------------------
@@ -314,6 +314,29 @@ header .navbar-default .navbar-nav li.active a:hover {
   background: none;
   color: #06f8d5;
 }
+header .navbar-default form.navbar-form input.form-control {
+  background: none;
+  color: #fff;
+  font-size: 11px;
+  border-color: rgba(255, 255, 255, 0.17);
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  border-right: none;
+}
+header .navbar-default form.navbar-form .input-group-btn .btn-default {
+  text-shadow: none;
+  border-color: rgba(255, 255, 255, 0.17);
+  background: none;
+  border-left: none;
+  color: rgba(255, 255, 255, 0.27);
+  outline: none;
+  border-radius: 0 20px 20px 0;
+  box-shadow: none;
+}
+header .navbar-default form.navbar-form input.form-control:focus,
+header .navbar-default form.navbar-form .input-group-btn .btn-default {
+  outline: none;
+}
 header .info {
   text-transform: uppercase;
   text-align: center;
@@ -425,7 +448,6 @@ header .info button.btn.btn-lg {
   font-size: 12px;
   font-weight: 300;
   padding: 45px 0;
-  /* 4.1 Team Persons */
 }
 #team h3 {
   font-size: 30px;
@@ -438,6 +460,7 @@ header .info button.btn.btn-lg {
   font-size: 36px;
   font-weight: 400;
 }
+/* 4.1 Team Persons */
 #team .persons .person {
   position: relative;
   padding: 0;
@@ -528,11 +551,44 @@ header .info button.btn.btn-lg {
   font-size: 30px;
   font-weight: 200;
   color: #152a31;
+  margin-bottom: 5%;
 }
 #modern h4 strong {
   display: block;
   font-weight: 300;
   font-size: 36px;
+}
+#modern .bx-viewport {
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+#modern .bx-viewport .slide {
+  padding: 30px 80px;
+  color: #152a31;
+}
+#modern .bx-viewport .slide h5 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 300;
+}
+#modern .bx-viewport .slide ul li {
+  margin: 10px 0;
+}
+#modern .bx-viewport .slide .fa-chevron-circle-right {
+  color: #26d5c0;
+  font-size: 20px;
+  margin-right: 10px;
+}
+#modern .bx-viewport .slide .btn-lg {
+  background: none;
+  border: 1px solid #e1e5e5;
+  color: #0d4d4b;
+  font-size: 14px;
+  font-weight: 300;
+}
+#modern .bx-viewport .slide .btn-lg:focus {
+  outline: none;
 }
 /*------------------------------------------------------------------
 	[7. Made Projects]
@@ -642,23 +698,104 @@ header .info button.btn.btn-lg {
   color: #000;
   transition: all 0.5s ease-in, left 1s, right 1s;
 }
-#projects #projectsItems .mix .item .icon-left {
-  left: -150px !important;
-}
-#projects #projectsItems .mix .item .icon-right {
-  right: -150px !important;
-}
 #projects #projectsItems .mix:hover .item {
   display: block;
 }
-#projects #projectsItems .mix:hover .item .icon-left {
-  left: auto !important;
+/*------------------------------------------------------------------
+	[8. Customer Reviews]
+------------------------------------------------------------------*/
+#reviews {
+  padding: 50px 0 80px;
 }
-#projects #projectsItems .mix:hover .item .icon-right {
-  right: auto !important;
+#reviews h4 {
+  color: #152a31;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+#reviews .bx-viewport {
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+#reviews .bx-viewport .bx-reviews {
+  margin-top: 5%;
+}
+#reviews .bx-viewport .bx-reviews .review {
+  background: url(../img/sectionReview/review.jpg) no-repeat center top;
+  padding: 70px 0 0;
+  font-size: 14px;
+  font-weight: 300;
+  color: #15262c;
+  text-align: center;
+}
+#reviews .bx-viewport .bx-reviews .review .author {
+  font-size: 12px;
+  color: #26d5c0;
+  margin-bottom: 6%;
+}
+#reviews .bx-controls .bx-pager .bx-pager-link {
+  background: #ced4d6;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjY2VkNGQ2IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VkZjFmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-linear-gradient(-45deg, #ced4d6 0%, #edf1f2 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ced4d6), color-stop(100%, #edf1f2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #ced4d6 0%, #edf1f2 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #ced4d6 0%, #edf1f2 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #ced4d6 0%, #edf1f2 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, #ced4d6 0%, #edf1f2 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ced4d6', endColorstr='#edf1f2', GradientType=1);
+  /* IE6-8 fallback on horizontal gradient */
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+#reviews .bx-controls .bx-pager .bx-pager-link.active {
+  background: #00a2d0;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDBhMmQwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwYzk3YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-linear-gradient(-45deg, #00a2d0 0%, #00c97b 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #00a2d0), color-stop(100%, #00c97b));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #00a2d0 0%, #00c97b 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #00a2d0 0%, #00c97b 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #00a2d0 0%, #00c97b 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, #00a2d0 0%, #00c97b 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00a2d0', endColorstr='#00c97b', GradientType=1);
+  /* IE6-8 fallback on horizontal gradient */
+}
+#reviews .bx-controls .bx-controls-direction .bx-prev,
+#reviews .bx-controls .bx-controls-direction .bx-next {
+  background: url(../img/sectionReview/arrows.png) no-repeat;
+  width: 30px;
+  height: 30px;
+}
+#reviews .bx-controls .bx-controls-direction .bx-prev {
+  background-position: left;
+  left: -60px;
+  margin-top: 20px;
+}
+#reviews .bx-controls .bx-controls-direction .bx-next {
+  background-position: right;
+  right: -60px;
+  margin-top: 20px;
 }
 /*------------------------------------------------------------------
-	[X. Footer]
+	[9. Footer]
 ------------------------------------------------------------------*/
 footer {
   background: #010a0e;
@@ -668,7 +805,7 @@ footer {
   color: #53585d;
 }
 /*------------------------------------------------------------------
-	[X. Copyright]
+	[10. Copyright]
 ------------------------------------------------------------------*/
 #copyright {
   padding: 80px 0;
