@@ -1,0 +1,370 @@
+/*
+Template Name: PhotoTravel
+Version: 1.00.0
+Theme URI: http://themes.Blue-NET.eu/PhotoTravel/
+Author: Blue-NET Mateusz Serwinowski
+Author URI: http://Blue-NET.pl
+Author E-MAIL: biuro@Blue-NET.pl
+License: Custom
+License URI: URI: http://themeforest.net/licenses
+*/
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2. Helper Class
+3. Header
+//	3.1 Navbar
+//	3.2 Info Box
+4. Offer
+5. Team
+//	5.1 Team Persons
+6. Modern Techniques
+7. Made Projects
+8. Customer Reviews
+9. Footer
+10. Copyright
+
+------------------------------------------------------------------*/
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+/* Background elements
+******************************************/
+/* border-radius
+******************************************/
+/* transform
+******************************************/
+/* transition
+******************************************/
+/*------------------------------------------------------------------
+	[1. Body]
+------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+	[2. Header]
+------------------------------------------------------------------*/
+/* 2.4 Pace style 
+********************************/
+.pace .pace-progress {
+  background: #cf0094;
+}
+.pace .pace-progress-inner {
+  box-shadow: 0 0 10px #cf0094, 0 0 5px #cf0094;
+}
+.pace .pace-activity {
+  border-top-color: #cf0094;
+  border-left-color: #cf0094;
+}
+/*------------------------------------------------------------------
+	[3. Header]
+------------------------------------------------------------------*/
+/* 3.1 Header Bar */
+header {
+  background: url(../../img/sectionLogo/bg1.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+header .navbar-default {
+  color: #ffffff;
+}
+header .navbar-default .navbar-nav li a {
+  color: #ffffff;
+}
+header .navbar-default .navbar-nav li a:hover {
+  color: #ff00b6;
+}
+header .navbar-default .navbar-nav li.active a {
+  color: #ff00b6;
+}
+header .navbar-default .navbar-nav li.active a:hover {
+  background: none;
+  color: #ff00b6;
+}
+header .navbar-default form.navbar-form input.form-control {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.17);
+}
+header .navbar-default form.navbar-form .input-group-btn .btn-default {
+  border-color: rgba(255, 255, 255, 0.17);
+  color: rgba(255, 255, 255, 0.27);
+}
+header .info {
+  color: #ffffff;
+}
+header .info h2 {
+  color: #ffffff;
+}
+header .info h2 strong {
+  color: #cf0094;
+}
+header .info button.btn.btn-lg {
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  color: #ffffff;
+}
+/*------------------------------------------------------------------
+	[4. Offer]
+------------------------------------------------------------------*/
+#offer .row div .icon {
+  border: 1px solid #dfe4e6;
+  background: #ffffff;
+}
+#offer .row div .icon i.fa {
+  color: #be00b8;
+}
+#offer .row div:hover .icon {
+  background: #be00b8;
+}
+#offer .row div:hover .icon i.fa {
+  color: #ffffff;
+}
+#offer h5 {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.08);
+  color: #0d3836;
+}
+/*------------------------------------------------------------------
+	[5. Team]
+------------------------------------------------------------------*/
+#team {
+  background: url("../../img/sectionTeam/bg1.jpg") no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+#team .persons .person div.image {
+  background: rgba(72, 0, 73, 0.8);
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(72, 0, 73, 0.8) 0%, rgba(73, 0, 43, 0.8) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(72, 0, 73, 0.8)), color-stop(100%, rgba(73, 0, 43, 0.8)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, rgba(72, 0, 73, 0.8) 0%, rgba(73, 0, 43, 0.8) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, rgba(72, 0, 73, 0.8) 0%, rgba(73, 0, 43, 0.8) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, rgba(72, 0, 73, 0.8) 0%, rgba(73, 0, 43, 0.8) 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, rgba(72, 0, 73, 0.8) 0%, rgba(73, 0, 43, 0.8) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@startColor', endColorstr='@endColor', GradientType=1);
+  /* IE6-8 fallback on horizontal gradient */
+  color: #ffffff;
+}
+#team .persons .person div.image h5 {
+  color: #ffffff;
+}
+#team .stats h5 {
+  color: #ffffff;
+}
+/*------------------------------------------------------------------
+	[6. Modern Techniques]
+------------------------------------------------------------------*/
+#modern {
+  border-bottom: 1px solid #f1f1f1;
+}
+#modern h4 {
+  color: #152a31;
+}
+#modern .bx-viewport .slide {
+  color: #152a31;
+}
+#modern .bx-viewport .slide .fa-chevron-circle-right {
+  color: #d92b61;
+}
+#modern .bx-viewport .slide .btn-lg {
+  border: 1px solid #e1e5e5;
+  color: #0d4d4b;
+}
+/*------------------------------------------------------------------
+	[7. Made Projects]
+------------------------------------------------------------------*/
+#projects {
+  color: #72787a;
+}
+#projects h4 {
+  color: #152a31;
+}
+#projects .nav a {
+  color: #72787a;
+}
+#projects .nav .active {
+  background: #d92b61;
+  color: #ffffff;
+}
+#projects #projectsItems .mix .info {
+  color: #72787a;
+}
+#projects #projectsItems .mix .info h5 strong {
+  color: #152a31;
+}
+#projects #projectsItems .mix .info .more {
+  background: url(../../img/sectionProjects/more.png) no-repeat center left;
+  color: #d92b61;
+}
+#projects #projectsItems .mix .item {
+  background: rgba(159, 9, 167, 0.75);
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(159, 9, 167, 0.75) 0%, rgba(161, 9, 102, 0.75) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(159, 9, 167, 0.75)), color-stop(100%, rgba(161, 9, 102, 0.75)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, rgba(159, 9, 167, 0.75) 0%, rgba(161, 9, 102, 0.75) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, rgba(159, 9, 167, 0.75) 0%, rgba(161, 9, 102, 0.75) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, rgba(159, 9, 167, 0.75) 0%, rgba(161, 9, 102, 0.75) 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, rgba(159, 9, 167, 0.75) 0%, rgba(161, 9, 102, 0.75) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@startColor', endColorstr='@endColor', GradientType=1);
+  /* IE6-8 fallback on horizontal gradient */
+  color: #ffffff;
+}
+#projects #projectsItems .mix .item h5 {
+  color: #ffffff;
+}
+#projects #projectsItems .mix .item .icon-left,
+#projects #projectsItems .mix .item .icon-right {
+  background: #ffffff;
+  color: #000000;
+}
+/*------------------------------------------------------------------
+	[8. Customer Reviews]
+------------------------------------------------------------------*/
+#reviews h4 {
+  color: #152a31;
+}
+#reviews .bx-viewport .bx-reviews .review {
+  color: #15262c;
+}
+#reviews .bx-viewport .bx-reviews .review .review-quote {
+  background: url(../../img/sectionReview/review.jpg) no-repeat center top;
+  width: 100%;
+  min-height: 50px;
+  padding-bottom: 20px;
+}
+#reviews .bx-viewport .bx-reviews .review .review-quote .fa-quote-left {
+  margin-top: 15px;
+  font-size: 26px;
+  color: #d92b61;
+}
+#reviews .bx-viewport .bx-reviews .review .author {
+  color: #d92b61;
+}
+#reviews .bx-controls .bx-pager .bx-pager-link {
+  background: #ced4d6;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ced4d6 0%, #edf1f2 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ced4d6), color-stop(100%, #edf1f2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #ced4d6 0%, #edf1f2 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #ced4d6 0%, #edf1f2 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #ced4d6 0%, #edf1f2 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, #ced4d6 0%, #edf1f2 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@startColor', endColorstr='@endColor', GradientType=1);
+  /* IE6-8 fallback on horizontal gradient */
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+#reviews .bx-controls .bx-pager .bx-pager-link.active {
+  background: #ce00ca;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ce00ca 0%, #d00084 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ce00ca), color-stop(100%, #d00084));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #ce00ca 0%, #d00084 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #ce00ca 0%, #d00084 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #ce00ca 0%, #d00084 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, #ce00ca 0%, #d00084 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@startColor', endColorstr='@endColor', GradientType=1);
+  /* IE6-8 fallback on horizontal gradient */
+}
+#reviews .bx-controls .bx-controls-direction .bx-prev,
+#reviews .bx-controls .bx-controls-direction .bx-next {
+  background: url(../../img/sectionReview/arrows.png) no-repeat;
+  width: 30px;
+  height: 30px;
+}
+#reviews .bx-controls .bx-controls-direction .bx-prev {
+  background-position: left;
+}
+#reviews .bx-controls .bx-controls-direction .bx-next {
+  background-position: right;
+}
+/*------------------------------------------------------------------
+	[9. Footer]
+------------------------------------------------------------------*/
+footer {
+  background: #010a0e;
+  border-top: 5px solid #e6eaec;
+  color: #dfe6e9;
+}
+footer h4 {
+  color: #ffffff;
+}
+footer h4 span {
+  background: rgba(159, 9, 167, 0.75);
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(159, 9, 167, 0.75) 0%, rgba(161, 9, 102, 0.75) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(159, 9, 167, 0.75)), color-stop(100%, rgba(161, 9, 102, 0.75)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, rgba(159, 9, 167, 0.75) 0%, rgba(161, 9, 102, 0.75) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, rgba(159, 9, 167, 0.75) 0%, rgba(161, 9, 102, 0.75) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, rgba(159, 9, 167, 0.75) 0%, rgba(161, 9, 102, 0.75) 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, rgba(159, 9, 167, 0.75) 0%, rgba(161, 9, 102, 0.75) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@startColor', endColorstr='@endColor', GradientType=1);
+  /* IE6-8 fallback on horizontal gradient */
+}
+footer .menu-footer li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.23);
+}
+footer .menu-footer li a {
+  color: #ffffff;
+}
+footer .menu-footer li a:hover {
+  color: #be00b8;
+}
+footer .menu-footer li.active a {
+  color: #be00b8;
+}
+footer .tweets ul li strong {
+  color: #ffffff;
+}
+footer .recent-post {
+  color: #ffffff;
+}
+footer .recent-post h5 {
+  color: #ffffff;
+}
+/*------------------------------------------------------------------
+	[10. Copyright]
+------------------------------------------------------------------*/
+#copyright {
+  color: #53585d;
+}
+#copyright a {
+  color: #53585d;
+}
+#copyright .social a {
+  background: #000000;
+  color: #ffffff;
+}
+#copyright .social a:hover {
+  background: #be00b8;
+}

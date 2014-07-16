@@ -1,0 +1,458 @@
+/*
+Template Name: PhotoTravel
+Version: 1.00.0
+Theme URI: http://themes.Blue-NET.eu/PhotoTravel/
+Author: Blue-NET Mateusz Serwinowski
+Author URI: http://Blue-NET.pl
+Author E-MAIL: biuro@Blue-NET.pl
+License: Custom
+License URI: URI: http://themeforest.net/licenses
+*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2. Helper Class
+3. Header
+//	3.1 Navbar
+//	3.2 Info Box
+4. Offer
+5. Team
+//	5.1 Team Persons
+6. Modern Techniques
+7. Made Projects
+8. Customer Reviews
+9. Footer
+10. Copyright
+
+------------------------------------------------------------------*/
+@import "../elements.less";
+
+// Color Theme
+	
+	// default color
+	
+		@white: #fff;
+		@black: #000;
+		
+		
+	// Typography color
+		
+		@link: #06f8d5; // top link 
+		
+		@color: #5be0cd; // header color
+		
+		@color1: #26d5c0; // modern arrow right, reviews author 
+		
+		@color2: #152a31; // modern h4, and typography
+		
+		@themeColor: #51dac6; // offer icon color hover
+			
+		@footerMenu: #00ffd9; // link color active footer menu
+		
+		@footerColor: #dfe6e9; // footer font color
+		
+		@copyright: #53585d; // copyright and footer font color
+		
+		@projects: #72787a; // projects typography color
+		
+		@headerSearch: rgba(255,255,255,0.27); // search icon
+		
+	// Background color
+		@background: #37a5c8; // copyright background social
+		
+		// preson gradient
+		@personStartGrad: rgba(66,89,29,0.8);
+		@personEndGrad: rgba(66,83,42,0.8); 
+		
+		// gradient image portfolio
+		@projectStartGrad: rgba(3,144,185,0.8);
+		@projectEndGrad: rgba(3,178,112,0.8);
+		
+		//reviews paginaion
+		@reviewStartGrad: #ced4d6;
+		@reviewEndGrad: #edf1f2;
+		
+		@reviewActiveStartGrad: #00a2d0;
+		@reviewActiveEndGrad: #00c97b; 
+	
+	// Border color
+		
+		@headerBorder: rgba(255,255,255,0.17);
+		@offerBorder: #dfe4e6;
+		@borderWhite23: rgba(255,255,255,.23);
+
+
+
+/*------------------------------------------------------------------
+	[1. Body]
+------------------------------------------------------------------*/
+
+body {
+}
+
+
+/*------------------------------------------------------------------
+	[2. Header]
+------------------------------------------------------------------*/
+
+/* 2.4 Pace style 
+********************************/
+.pace .pace-progress {
+  background: @color;
+}
+
+.pace .pace-progress-inner {
+	box-shadow: 0 0 10px @color, 0 0 5px @color;
+}
+
+.pace .pace-activity {
+  border-top-color: @color;
+  border-left-color: @color;
+}
+
+
+/*------------------------------------------------------------------
+	[3. Header]
+------------------------------------------------------------------*/
+
+/* 3.1 Header Bar */
+header{
+	background:url(../../img/sectionLogo/bg.jpg) no-repeat center fixed;
+	background-size:cover;
+	
+	// 3.1 NavBar
+	.navbar-default{
+		color:@white;
+			
+		.navbar-nav{
+			li{
+				a{
+					color:@white;
+					
+					&:hover{color:@link;}
+				}
+			
+				&.active a{
+					color:@link;
+					
+					&:hover{
+						background:none;
+						color:@link;
+					}
+				}
+			} //.end li
+		} //.end navbar
+		
+		
+		form.navbar-form{
+			input.form-control{
+				color:@white;
+				border-color:@headerBorder;
+			}
+			.input-group-btn .btn-default{
+				border-color:@headerBorder;
+				color: @headerSearch;
+			}
+			
+		} //.end form.navbar-form
+		
+	}
+	
+	// 3.2 Info box
+	.info{
+		color:@white;
+		
+		h2{
+			color:@white;
+			
+			strong{color:@color;}
+		}
+		
+		button.btn.btn-lg{
+			border:1px solid @headerBorder;
+			color:@white;
+		}
+		
+	}
+	
+}
+
+
+/*------------------------------------------------------------------
+	[4. Offer]
+------------------------------------------------------------------*/
+
+#offer{
+	
+	.row div .icon{
+		border:1px solid @offerBorder;
+		background:@white;
+		
+		i.fa{color:@themeColor;}
+	}
+		
+	.row div:hover .icon{
+		background: @themeColor;
+		
+		i.fa{color:@white;}
+	}
+	
+	
+	h5{
+		text-shadow:1px 1px 1px rgba(0,0,0,0.08);
+		color:#0d3836;
+	}
+}
+
+
+/*------------------------------------------------------------------
+	[5. Team]
+------------------------------------------------------------------*/
+#team{
+	.gradienthorizontal(#01261e, #012229);
+	color:@white;
+}
+
+// 4.1 Team Persons 
+#team{	
+	.persons{
+		.person{
+			div.image{
+				.gradient45deg(@personStartGrad, @personEndGrad);
+				color:@white;
+				
+				h5{color:@white;}
+			} //.end image div
+		} //.person end
+	}// .end persons
+	
+	
+	.stats{
+		h5{color:@white;}
+	}
+}
+
+
+/*------------------------------------------------------------------
+	[6. Modern Techniques]
+------------------------------------------------------------------*/
+#modern{
+	border-bottom:1px solid #f1f1f1;
+	
+	h4{color:@color2;}
+	
+	.bx-viewport{
+				
+		.slide{
+			color:@color2;
+			
+			.fa-chevron-circle-right{color:@color1;}
+			
+			.btn-lg{
+				border:1px solid #e1e5e5;
+				color:#0d4d4b;
+			}
+			
+		}
+	}
+	
+}
+
+
+/*------------------------------------------------------------------
+	[7. Made Projects]
+------------------------------------------------------------------*/
+#projects{
+	color:@projects;
+	
+	h4{color:@color2;}
+	
+	.nav{
+		a{color:@projects;}
+		
+		.active{
+			background:@color1;
+			color:@white;
+		}
+	}
+	
+	#projectsItems{
+		
+		.mix{
+			
+			.info{
+				color:@projects;
+				
+				h5{
+					strong{color:@color2;}
+				}
+				
+				.more{
+					background:url(../../img/sectionProjects/more.png) no-repeat center left;
+					color:@color1;
+				}
+			}
+			.item{
+				.gradient45deg(@projectStartGrad, @projectEndGrad);
+				color:@white;
+				
+				h5{color:@white;}
+			
+				.icon-left,
+				.icon-right{
+					background:@white;
+					color:@black;
+				}
+			}
+		}
+			
+	}
+}
+
+
+/*------------------------------------------------------------------
+	[8. Customer Reviews]
+------------------------------------------------------------------*/
+#reviews{
+	
+	h4{color:@color2;}
+
+	.bx-viewport{
+			
+		.bx-reviews{
+			.review{
+				color: #15262c;
+				
+				.review-quote{
+					background:url(../../img/sectionReview/review.jpg) no-repeat center top;
+					width:100%;
+					min-height:50px;
+					padding-bottom:20px;
+					
+					.fa-quote-left{
+						margin-top:15px;
+						font-size:26px;
+						color:@color1;
+					}
+				}
+				
+				.author{
+					color:@color1;
+				} // end author
+			} // end review
+		}// end bx-reviews
+	} //end bx viewsport
+			
+			
+	.bx-controls .bx-pager .bx-pager-link{
+		.gradient45deg(@reviewStartGrad, @reviewEndGrad);
+		
+		width:13px;
+		height:13px;
+		border-radius:50%;
+		
+		&.active{
+			.gradient45deg(@reviewActiveStartGrad, @reviewActiveEndGrad);
+		}	
+	} // end .bx-controls .bx-pager .bx-pager-link
+	
+	.bx-controls .bx-controls-direction{
+		.bx-prev,
+		.bx-next{
+			background:url(../../img/sectionReview/arrows.png) no-repeat;
+			width:30px;
+			height:30px;
+		}
+		
+		.bx-prev{
+			background-position:left;
+		}
+		
+		.bx-next{
+			background-position:right;
+		}
+		
+	} // end .bx-controls .bx-controls-direction
+	
+}
+
+/*------------------------------------------------------------------
+	[9. Footer]
+------------------------------------------------------------------*/
+
+footer {
+    background: #010a0e;
+    border-top: 5px solid #e6eaec;
+    color: @footerColor;
+
+    h4 {
+        color: @white;
+
+        span {
+            .gradient45deg(@projectStartGrad, @projectEndGrad);
+        }
+    }
+    // menu footer after logo
+    .menu-footer {
+
+        li {
+            border-bottom: 1px solid @borderWhite23;
+
+            a {
+                color: @white;
+
+                &:hover {
+                    color: @footerMenu;
+                }
+            }
+            //.end a
+            &.active {
+                a {
+                    color: @footerMenu;
+                }
+            }
+        }
+        //.end li
+    }
+    //.end menu footer
+    .tweets {
+        ul {
+            li {
+                strong {
+                    color: @white;
+                }
+            }
+        }
+    }
+
+    .recent-post {
+        color: @white;
+
+        h5 {
+            color: @white;
+        }
+    }
+}
+
+
+/*------------------------------------------------------------------
+	[10. Copyright]
+------------------------------------------------------------------*/
+
+#copyright{
+	color:@copyright;	
+
+	 a{color:@copyright;}
+	 
+	.social{
+		a{
+			background:@black;
+			color:@white;
+			
+			&:hover{background:@background;}
+		}
+	} //.end social
+	
+}

@@ -73,23 +73,6 @@
         "sourcemaps": false
       }
     },
-    "496989b3": {
-      "id": "496989b3",
-      "pid": "ad0d0c64",
-      "name": "style.less",
-      "input": "assets\\less\\style.less",
-      "customOutput": "assets\\css\\style.css",
-      "type": "Less",
-      "config": {
-        "autoCompile": true,
-        "compress": false,
-        "sourcemaps": true,
-        "cleancss": false,
-        "strictMath": true,
-        "strictUnits": true,
-        "autoprefixer": false
-      }
-    },
     "12a4efb8": {
       "id": "12a4efb8",
       "pid": "ad0d0c64",
@@ -2036,7 +2019,7 @@
       "customOutput": false,
       "type": "Js",
       "config": {
-        "autoCompile": true,
+        "autoCompile": false,
         "uglify": true,
         "mangle": true,
         "sourcemaps": false
@@ -2050,7 +2033,7 @@
       "customOutput": false,
       "type": "Js",
       "config": {
-        "autoCompile": true,
+        "autoCompile": false,
         "uglify": true,
         "mangle": true,
         "sourcemaps": false
@@ -2064,34 +2047,7 @@
       "customOutput": false,
       "type": "Js",
       "config": {
-        "autoCompile": true,
-        "uglify": true,
-        "mangle": true,
-        "sourcemaps": false
-      }
-    },
-    "b165d1cc": {
-      "id": "b165d1cc",
-      "pid": "ad0d0c64",
-      "name": "README.md",
-      "input": "assets\\plugins\\jquery-plugin-circliful-master\\README.md",
-      "customOutput": false,
-      "type": "Md",
-      "config": {
-        "autoCompile": true,
-        "sanitize": false,
-        "gfm": true
-      }
-    },
-    "f7b30b8e": {
-      "id": "f7b30b8e",
-      "pid": "ad0d0c64",
-      "name": "jquery.circliful.js",
-      "input": "assets\\plugins\\jquery-plugin-circliful-master\\js\\jquery.circliful.js",
-      "customOutput": false,
-      "type": "Js",
-      "config": {
-        "autoCompile": true,
+        "autoCompile": false,
         "uglify": true,
         "mangle": true,
         "sourcemaps": false
@@ -2105,7 +2061,7 @@
       "customOutput": false,
       "type": "Md",
       "config": {
-        "autoCompile": true,
+        "autoCompile": false,
         "sanitize": false,
         "gfm": true
       }
@@ -2118,142 +2074,10 @@
       "customOutput": false,
       "type": "Js",
       "config": {
-        "autoCompile": true,
+        "autoCompile": false,
         "uglify": true,
         "mangle": true,
         "sourcemaps": false
-      }
-    },
-    "7a7c581d": {
-      "id": "7a7c581d",
-      "pid": "ad0d0c64",
-      "name": "CHANGELOG.md",
-      "input": "assets\\plugins\\mixitup-master\\CHANGELOG.md",
-      "customOutput": false,
-      "type": "Md",
-      "config": {
-        "autoCompile": true,
-        "sanitize": false,
-        "gfm": true
-      }
-    },
-    "e1e940fb": {
-      "id": "e1e940fb",
-      "pid": "ad0d0c64",
-      "name": "Gruntfile.js",
-      "input": "assets\\plugins\\mixitup-master\\Gruntfile.js",
-      "customOutput": false,
-      "type": "Js",
-      "config": {
-        "autoCompile": true,
-        "uglify": true,
-        "mangle": true,
-        "sourcemaps": false
-      }
-    },
-    "c6ee8fac": {
-      "id": "c6ee8fac",
-      "pid": "ad0d0c64",
-      "name": "LICENSE.md",
-      "input": "assets\\plugins\\mixitup-master\\LICENSE.md",
-      "customOutput": false,
-      "type": "Md",
-      "config": {
-        "autoCompile": true,
-        "sanitize": false,
-        "gfm": true
-      }
-    },
-    "b03d791b": {
-      "id": "b03d791b",
-      "pid": "ad0d0c64",
-      "name": "README.md",
-      "input": "assets\\plugins\\mixitup-master\\README.md",
-      "customOutput": false,
-      "type": "Md",
-      "config": {
-        "autoCompile": true,
-        "sanitize": false,
-        "gfm": true
-      }
-    },
-    "d4779928": {
-      "id": "d4779928",
-      "pid": "ad0d0c64",
-      "name": "api-methods.md",
-      "input": "assets\\plugins\\mixitup-master\\docs\\api-methods.md",
-      "customOutput": false,
-      "type": "Md",
-      "config": {
-        "autoCompile": true,
-        "sanitize": false,
-        "gfm": true
-      }
-    },
-    "79fedc77": {
-      "id": "79fedc77",
-      "pid": "ad0d0c64",
-      "name": "state-object.md",
-      "input": "assets\\plugins\\mixitup-master\\docs\\state-object.md",
-      "customOutput": false,
-      "type": "Md",
-      "config": {
-        "autoCompile": true,
-        "sanitize": false,
-        "gfm": true
-      }
-    },
-    "75ad9dd6": {
-      "id": "75ad9dd6",
-      "pid": "ad0d0c64",
-      "name": "configuration-object.md",
-      "input": "assets\\plugins\\mixitup-master\\docs\\configuration-object.md",
-      "customOutput": false,
-      "type": "Md",
-      "config": {
-        "autoCompile": true,
-        "sanitize": false,
-        "gfm": true
-      }
-    },
-    "f1c33903": {
-      "id": "f1c33903",
-      "pid": "ad0d0c64",
-      "name": "version-1-migration.md",
-      "input": "assets\\plugins\\mixitup-master\\docs\\version-1-migration.md",
-      "customOutput": false,
-      "type": "Md",
-      "config": {
-        "autoCompile": true,
-        "sanitize": false,
-        "gfm": true
-      }
-    },
-    "15832e9b": {
-      "id": "15832e9b",
-      "pid": "ad0d0c64",
-      "name": "jquery.mixitup.js",
-      "input": "assets\\plugins\\mixitup-master\\src\\jquery.mixitup.js",
-      "customOutput": false,
-      "type": "Js",
-      "config": {
-        "autoCompile": true,
-        "uglify": true,
-        "mangle": true,
-        "sourcemaps": false
-      }
-    },
-    "d7d1698d": {
-      "id": "d7d1698d",
-      "pid": "ad0d0c64",
-      "name": "events.md",
-      "input": "assets\\plugins\\mixitup-master\\docs\\events.md",
-      "customOutput": false,
-      "type": "Md",
-      "config": {
-        "autoCompile": true,
-        "sanitize": false,
-        "gfm": true
       }
     },
     "8ccb7e99": {
@@ -2264,7 +2088,7 @@
       "customOutput": false,
       "type": "Md",
       "config": {
-        "autoCompile": true,
+        "autoCompile": false,
         "sanitize": false,
         "gfm": true
       }
@@ -2277,7 +2101,7 @@
       "customOutput": false,
       "type": "Js",
       "config": {
-        "autoCompile": true,
+        "autoCompile": false,
         "uglify": true,
         "mangle": true,
         "sourcemaps": false
@@ -2291,7 +2115,7 @@
       "customOutput": false,
       "type": "Md",
       "config": {
-        "autoCompile": true,
+        "autoCompile": false,
         "sanitize": false,
         "gfm": true
       }
@@ -2304,7 +2128,7 @@
       "customOutput": false,
       "type": "Md",
       "config": {
-        "autoCompile": true,
+        "autoCompile": false,
         "sanitize": false,
         "gfm": true
       }
@@ -2317,7 +2141,7 @@
       "customOutput": false,
       "type": "Md",
       "config": {
-        "autoCompile": true,
+        "autoCompile": false,
         "sanitize": false,
         "gfm": true
       }
@@ -2330,7 +2154,7 @@
       "customOutput": false,
       "type": "Md",
       "config": {
-        "autoCompile": true,
+        "autoCompile": false,
         "sanitize": false,
         "gfm": true
       }
@@ -2343,7 +2167,7 @@
       "customOutput": false,
       "type": "Md",
       "config": {
-        "autoCompile": true,
+        "autoCompile": false,
         "sanitize": false,
         "gfm": true
       }
@@ -2356,7 +2180,7 @@
       "customOutput": false,
       "type": "Md",
       "config": {
-        "autoCompile": true,
+        "autoCompile": false,
         "sanitize": false,
         "gfm": true
       }
@@ -2369,7 +2193,7 @@
       "customOutput": false,
       "type": "Js",
       "config": {
-        "autoCompile": true,
+        "autoCompile": false,
         "uglify": true,
         "mangle": true,
         "sourcemaps": false
@@ -2383,9 +2207,118 @@
       "customOutput": false,
       "type": "Md",
       "config": {
+        "autoCompile": false,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "2e8f9ea2": {
+      "id": "2e8f9ea2",
+      "pid": "ad0d0c64",
+      "name": "README.md",
+      "input": "README.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
         "autoCompile": true,
         "sanitize": false,
         "gfm": true
+      }
+    },
+    "33f4e113": {
+      "id": "33f4e113",
+      "pid": "ad0d0c64",
+      "name": "layout.js",
+      "input": "assets\\scripts\\layout.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "81f48e73": {
+      "id": "81f48e73",
+      "pid": "ad0d0c64",
+      "name": "bxslider.js",
+      "input": "assets\\scripts\\bxslider.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "89c63ffc": {
+      "id": "89c63ffc",
+      "pid": "ad0d0c64",
+      "name": "themes2.less",
+      "input": "assets\\less\\themes\\themes2.less",
+      "customOutput": false,
+      "type": "Less",
+      "config": {
+        "autoCompile": true,
+        "compress": false,
+        "sourcemaps": false,
+        "cleancss": false,
+        "strictMath": false,
+        "strictUnits": false,
+        "autoprefixer": false
+      }
+    },
+    "be7fbe67": {
+      "id": "be7fbe67",
+      "pid": "ad0d0c64",
+      "name": "themes1.less",
+      "input": "assets\\less\\themes\\themes1.less",
+      "customOutput": false,
+      "type": "Less",
+      "config": {
+        "autoCompile": true,
+        "compress": false,
+        "sourcemaps": false,
+        "cleancss": false,
+        "strictMath": false,
+        "strictUnits": false,
+        "autoprefixer": false
+      }
+    },
+    "257a49d8": {
+      "id": "257a49d8",
+      "pid": "ad0d0c64",
+      "name": "themes.less",
+      "input": "assets\\less\\themes\\themes.less",
+      "customOutput": false,
+      "type": "Less",
+      "config": {
+        "autoCompile": true,
+        "compress": false,
+        "sourcemaps": false,
+        "cleancss": false,
+        "strictMath": false,
+        "strictUnits": false,
+        "autoprefixer": false
+      }
+    },
+    "496989b3": {
+      "id": "496989b3",
+      "pid": "ad0d0c64",
+      "name": "style.less",
+      "input": "assets\\less\\style.less",
+      "customOutput": false,
+      "type": "Less",
+      "config": {
+        "autoCompile": true,
+        "compress": false,
+        "sourcemaps": false,
+        "cleancss": false,
+        "strictMath": false,
+        "strictUnits": false,
+        "autoprefixer": false
       }
     }
   },
@@ -2582,6 +2515,17 @@
         "5eac07ed"
       ]
     },
+    "75ada3db": {
+      "id": "75ada3db",
+      "pid": "ad0d0c64",
+      "path": "assets\\less\\elements.less",
+      "parents": [
+        "89c63ffc",
+        "be7fbe67",
+        "257a49d8",
+        "496989b3"
+      ]
+    },
     "7389dca9": {
       "id": "7389dca9",
       "pid": "ad0d0c64",
@@ -2624,6 +2568,26 @@
     }
   },
   "images": {
+    "80207969": {
+      "id": "80207969",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionProjects\\img4.jpg",
+      "size": 51249,
+      "name": "img4.jpg",
+      "type": "Jpg",
+      "initialSize": 51249,
+      "status": "NOT_OPTIMIZED"
+    },
+    "90379626": {
+      "id": "90379626",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionTeam\\person3.jpg",
+      "size": 37017,
+      "name": "person3.jpg",
+      "type": "Jpg",
+      "initialSize": 37017,
+      "status": "NOT_OPTIMIZED"
+    },
     "ccb6eb6a": {
       "id": "ccb6eb6a",
       "pid": "ad0d0c64",
@@ -3503,6 +3467,196 @@
       "type": "Png",
       "initialSize": 6299,
       "status": "NOT_OPTIMIZED"
+    },
+    "24093d16": {
+      "id": "24093d16",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionFooter\\logo.png",
+      "size": 2407,
+      "name": "logo.png",
+      "type": "Png",
+      "initialSize": 2407,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d66eb370": {
+      "id": "d66eb370",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionFooter\\recent1.jpg",
+      "size": 3526,
+      "name": "recent1.jpg",
+      "type": "Jpg",
+      "initialSize": 3526,
+      "status": "NOT_OPTIMIZED"
+    },
+    "54cb1252": {
+      "id": "54cb1252",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionFooter\\recent2.jpg",
+      "size": 3452,
+      "name": "recent2.jpg",
+      "type": "Jpg",
+      "initialSize": 3452,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c6f990da": {
+      "id": "c6f990da",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionFooter\\recent3.jpg",
+      "size": 3722,
+      "name": "recent3.jpg",
+      "type": "Jpg",
+      "initialSize": 3722,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1d5e7faa": {
+      "id": "1d5e7faa",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionLogo\\icon.png",
+      "size": 1993,
+      "name": "icon.png",
+      "type": "Png",
+      "initialSize": 1993,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3f6474d1": {
+      "id": "3f6474d1",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionModern\\slide1.jpg",
+      "size": 66283,
+      "name": "slide1.jpg",
+      "type": "Jpg",
+      "initialSize": 66283,
+      "status": "NOT_OPTIMIZED"
+    },
+    "cdd24bd8": {
+      "id": "cdd24bd8",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionProjects\\img1.jpg",
+      "size": 34402,
+      "name": "img1.jpg",
+      "type": "Jpg",
+      "initialSize": 34402,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7f1d5bd9": {
+      "id": "7f1d5bd9",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionProjects\\img2.jpg",
+      "size": 43316,
+      "name": "img2.jpg",
+      "type": "Jpg",
+      "initialSize": 43316,
+      "status": "NOT_OPTIMIZED"
+    },
+    "afcf2053": {
+      "id": "afcf2053",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionProjects\\img3.jpg",
+      "size": 46765,
+      "name": "img3.jpg",
+      "type": "Jpg",
+      "initialSize": 46765,
+      "status": "NOT_OPTIMIZED"
+    },
+    "be1016ec": {
+      "id": "be1016ec",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionProjects\\img5.jpg",
+      "size": 20500,
+      "name": "img5.jpg",
+      "type": "Jpg",
+      "initialSize": 20500,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3babdfcc": {
+      "id": "3babdfcc",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionProjects\\img6.jpg",
+      "size": 39400,
+      "name": "img6.jpg",
+      "type": "Jpg",
+      "initialSize": 39400,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c9f73147": {
+      "id": "c9f73147",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionProjects\\img7.jpg",
+      "size": 60115,
+      "name": "img7.jpg",
+      "type": "Jpg",
+      "initialSize": 60115,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f7effaa3": {
+      "id": "f7effaa3",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionProjects\\more.png",
+      "size": 1456,
+      "name": "more.png",
+      "type": "Png",
+      "initialSize": 1456,
+      "status": "NOT_OPTIMIZED"
+    },
+    "372f6397": {
+      "id": "372f6397",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionReview\\arrows.png",
+      "size": 1852,
+      "name": "arrows.png",
+      "type": "Png",
+      "initialSize": 1852,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c8dbf292": {
+      "id": "c8dbf292",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionReview\\review.jpg",
+      "size": 3040,
+      "name": "review.jpg",
+      "type": "Jpg",
+      "initialSize": 3040,
+      "status": "NOT_OPTIMIZED"
+    },
+    "bb79d1e6": {
+      "id": "bb79d1e6",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionTeam\\icon.png",
+      "size": 1978,
+      "name": "icon.png",
+      "type": "Png",
+      "initialSize": 1978,
+      "status": "NOT_OPTIMIZED"
+    },
+    "96e590f3": {
+      "id": "96e590f3",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionTeam\\person1.jpg",
+      "size": 38146,
+      "name": "person1.jpg",
+      "type": "Jpg",
+      "initialSize": 38146,
+      "status": "NOT_OPTIMIZED"
+    },
+    "6f77a428": {
+      "id": "6f77a428",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionTeam\\person2.jpg",
+      "size": 54800,
+      "name": "person2.jpg",
+      "type": "Jpg",
+      "initialSize": 54800,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2a6feda8": {
+      "id": "2a6feda8",
+      "pid": "ad0d0c64",
+      "path": "assets\\img\\sectionTeam\\person4.jpg",
+      "size": 46873,
+      "name": "person4.jpg",
+      "type": "Jpg",
+      "initialSize": 46873,
+      "status": "NOT_OPTIMIZED"
     }
   },
   "config": {
@@ -3512,7 +3666,7 @@
     "filterPatterns": "/assets/plugins",
     "useCustomServer": false,
     "customServerUrl": "http://themes.blue-net.eu/phototravel/",
-    "cssPath": "",
+    "cssPath": "/css/",
     "jsPath": "",
     "htmlPath": "",
     "minJsPath": "min/",
